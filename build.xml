@@ -1,0 +1,228 @@
+<project name="MyProject" default="" basedir=".">
+    <description>Daily Task</description>
+  
+  <!-- set global properties for this build -->
+  <property name="target_app_home"  location="C:\softwares\jboss-eap-5.2\apps\GATES\deploy\gates.war"/>   
+  <!--property name="target_app_home"  location="C:\softwares\jetty-distribution-8.1.17.v20150415\webapps\gates.war"/-->   
+  
+  <property name="src_app_home"  location="C:\dev_workspace\gates_fresh\source\gates"/> 
+  <property name="jboss.bin.dir"  location="C:\softwares\jboss-eap-5.2\jboss-as\bin"/>
+  <property file="module.properties" />
+  <property name="bsh.path"
+    location="./lib/bsh-2.0b5.jar" />
+	
+  <taskdef resource="net/sf/antcontrib/antlib.xml">
+	  <classpath>
+		  <fileset dir=".">
+			 <include name="**/*.jar" />
+		  </fileset>
+	   </classpath>
+   </taskdef>
+  <!--taskdef resource="net/sf/antcontrib/antcontrib.properties" >  
+   <classpath>
+      <fileset dir=".">
+         <include name="**/*.jar" />
+      </fileset>
+   </classpath>
+   </taskdef-->
+  <!-- ******************* MAVEN PROPERTIES******************** -->
+	<condition property="mavenExecutableFile" value="mvn.cmd" else="mvn">
+		<os family="windows" />
+	</condition>
+	<var name="mavenExecutable" value="${env.M2_HOME}\bin\${mavenExecutableFile}"/>
+	
+	<available file="${mavenExecutable}"  property="maven.exec.exists" />
+	<if>
+		<not>
+			<isset property="${maven.exec.exists}" />
+		</not>
+		<then>
+			<var name="mavenExecutable" value="C:\softwares\apache-maven-3.3.3\bin\${mavenExecutableFile}"/>
+			<available file="${mavenExecutable}"  property="maven.exec.exists" />
+		</then>
+	</if>
+	<fail unless="${maven.exec.exists}" message="Cannot determine the maven installation location through M2_HOME or MAVEN_HOME environment variables."/>
+
+  <target name="jsp-and-js">
+   <parallel>
+		<sync todir="${target_app_home}\WEB-INF\jsp">
+		  <fileset dir="${src_app_home}\gates-interactive-web\src\main\webapp\WEB-INF\jsp" />
+		</sync>
+		<sync todir="${target_app_home}\cas">
+		  <fileset dir="${src_app_home}\gates-interactive-web\src\main\webapp\cas" />
+		</sync>	
+		<sync todir="${target_app_home}\resources">
+		  <fileset dir="${src_app_home}\gates-interactive-web\src\main\webapp\resources" />
+		</sync>
+	</parallel>
+  </target>
+  <target name="scheduled-task" depends="cvs-update,full-deploy-nofancy">	  
+  </target>
+  <target name="full-deploy-nofancy" depends="compile-simple">	  
+	<dirset dir="${src_app_home}\gates-interactive-web\target" id="dirId">
+		<include name="gates-interactive-web*"/>
+	</dirset>
+	<property name= "dirName" refid= "dirId" />
+	<delete dir="${target_app_home}"/>
+	<sync todir="${target_app_home}">
+      <fileset dir="${src_app_home}\gates-interactive-web\target\${dirName}" />
+    </sync>
+  </target>
+  <target name="clean-perf">
+		<for list="${select.modules}" param="moduleName">
+			<sequential>
+				 <echo>Deleting Jar from WEB-INF\lib : @{moduleName} </echo>
+				<delete>
+					<fileset dir="${target_app_home}\WEB-INF\lib" includes="**/@{moduleName}*SNAPSHOT.jar"/>
+				</delete>
+			</sequential>	
+		</for>
+  </target>
+  <target name="full-deploy-perf" >	  
+	<parallel>		
+		<antcall target="clean-perf"/>
+		<antcall target="compile"/>
+	</parallel>	
+	
+	<for list="${select.modules}" param="moduleName" parallel="true">
+		<sequential>
+			<echo>Copying Jar to WEB-INF\lib : @{moduleName} </echo>
+			<copy todir="${target_app_home}\WEB-INF\lib" flatten="true">
+				<fileset dir="${src_app_home}\@{moduleName}">
+				  <include name="**/target/@{moduleName}*SNAPSHOT.jar"/>
+				</fileset>
+			</copy>
+		</sequential>	
+	</for>	
+	<parallel>	
+		<antcall target="jsp-and-js"/>
+		<sync todir="${target_app_home}\WEB-INF\classes">
+			<fileset dir="${src_app_home}\gates-interactive-web\target\classes" />
+		</sync>
+	</parallel>
+	<!--parallel>
+		<sync todir="${target_app_home}">
+		  <fileset dir="${src_app_home}\gates-interactive-web\target\${dirName}">
+			<exclude name="**/*.jar"/>
+		  </fileset>
+		   <preserveintarget>
+			   <include name="**/lib/**"/>
+		   </preserveintarget>
+		</sync>		
+	</parallel-->	
+  </target>
+  <target name="web-project-deploy" depends="compile-web">
+	<parallel>	
+		<antcall target="jsp-and-js"/>
+		<sync todir="${target_app_home}\WEB-INF\classes">
+			<fileset dir="${src_app_home}\gates-interactive-web\target\classes" />
+		</sync>
+	</parallel>		
+	<!-- Restart server better than restart application (Spring World) --> 
+	<!--touch file="${target_app_home}\WEB-INF\web.xml"/-->
+  </target>
+  <!--target name="compile" description="Compile artifacts">
+	<parallel>
+		<exec dir="${src_app_home}" executable="${mavenExecutable}">
+      		<arg value="-pl" />
+			<arg value="gates-common" />
+			<arg value="install" />
+			<arg value="-Dmaven.test.skip=true" />
+		</exec>
+		<exec dir="${src_app_home}" executable="${mavenExecutable}">      		
+			<arg value="-pl" />
+			<arg value="gates-bk" />
+			<arg value="install" />
+			<arg value="-Dmaven.test.skip=true" />
+		</exec>
+		<exec dir="${src_app_home}" executable="${mavenExecutable}">      		
+			<arg value="-pl" />
+			<arg value="gates-bl" />
+			<arg value="install" />
+			<arg value="-Dmaven.test.skip=true" />
+		</exec>
+		<exec dir="${src_app_home}" executable="${mavenExecutable}">      		
+			<arg value="-pl" />
+			<arg value="gates-qt" />
+			<arg value="install" />
+			<arg value="-Dmaven.test.skip=true" />
+		</exec>
+	</parallel>	
+	<exec dir="${src_app_home}" executable="${mavenExecutable}">      		
+			<arg value="-pl" />
+			<arg value="gates-interactive-web" />
+			<arg value="compile" />
+			<arg value="-PCustomBuildProfile" />
+			<arg value="-Dmaven.test.skip=true" />
+	</exec>
+  </target-->
+   <target name="compile-child" description="Compile artifacts">
+		<for list="${select.modules}" param="moduleName" parallel="true">
+			<sequential>
+				 <echo>Building @{moduleName}</echo>
+				 <exec dir="${src_app_home}" executable="${mavenExecutable}">
+					<arg value="-pl" />
+					<arg value="@{moduleName}" />
+					<arg value="install" />
+					<arg value="-Dmaven.test.skip=true" />
+					<arg value="–offline" />					
+				</exec>
+			</sequential>	
+		</for>	
+   </target>
+   <target name="compile-web" description="Compile web">
+		<exec dir="${src_app_home}" executable="${mavenExecutable}">      		
+			<arg value="-pl" />
+			<arg value="gates-interactive-web" />
+			<arg value="compile" />
+			<arg value="-P CustomBuildProfile" />
+			<arg value="-Dmaven.test.skip=true" />
+			<arg value="–offline" />
+		</exec>
+   </target>
+   <target name="compile" depends="compile-child,compile-web" description="Compile all">
+   </target>
+   
+   <target name="compile-simple" description="Compile no fancy all">
+		<exec dir="${src_app_home}" executable="${mavenExecutable}">      					
+			<arg value="clean" />
+			<arg value="install" />
+			<arg value="-Dmaven.test.skip=true" />
+		</exec>
+   </target>
+	  
+ <target name="cvs-update" description="Update from CVS">
+	<cvs dest="${src_app_home}" command="-q update -P -A -d"/>
+ </target>
+ <target name="alert" description="Alert">
+		<script language="beanshell" classpath="${bsh.path}"> 
+		  import javax.swing.*; 
+		  JOptionPane.showMessageDialog( 
+			  null, "CVS update and build completes "+new java.text.SimpleDateFormat("MM/dd/yyyy HH:mm:ss").format(new java.util.Date()), 
+			 "Danger Danger", JOptionPane.ERROR_MESSAGE); 
+		</script> 
+ </target>
+  <!-- Stop Jboss -->
+<target name="stop-jboss" description="Stops back-end EJB container" >	
+	<exec executable="cmd.exe">
+		<arg line="/c"/>
+		<arg line="AutoIt3.exe"/>
+		<arg line="StopJboss.au3"/>	
+	</exec>
+	<echo>+-----------------------------+</echo>
+	<echo>| J B O S S   S T O P P E D   |</echo>
+	<echo>+-----------------------------+</echo>
+</target>
+<!-- Start Jboss -->
+
+<target name="start-jboss" description="Starts back-end EJB container" >
+	<exec executable="cmd.exe">
+		<arg line="/c"/>
+		<arg line="AutoIt3.exe"/>
+		<arg line="StartJboss.au3"/>		
+	</exec>
+	<echo>+-----------------------------+</echo>
+	<echo>| J B O S S   S T A R T E D   |</echo>
+	<echo>+-----------------------------+</echo>
+</target>  
+</project>
