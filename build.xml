@@ -165,7 +165,7 @@
 					<arg value="@{moduleName}" />
 					<arg value="install" />
 					<arg value="-Dmaven.test.skip=true" />
-					<arg value="–offline" />					
+					<!--arg value="–offline" /-->					
 				</exec>
 			</sequential>	
 		</for>	
@@ -177,7 +177,7 @@
 			<arg value="compile" />
 			<arg value="-P CustomBuildProfile" />
 			<arg value="-Dmaven.test.skip=true" />
-			<arg value="–offline" />
+			<!--arg value="–offline" /-->
 		</exec>
    </target>
    <target name="compile" depends="compile-child,compile-web" description="Compile all">
