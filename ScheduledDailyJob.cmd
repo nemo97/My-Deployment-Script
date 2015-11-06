@@ -8,4 +8,5 @@ call ant -f C:\softwares\AntScripts\build.xml scheduled-task
 
 rem ***** Start Jboss **
 call ant -f C:\softwares\AntScripts\build.xml start-jboss
+call ant -f C:\softwares\AntScripts\build.xml alert
 rem pause

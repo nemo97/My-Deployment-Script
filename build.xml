@@ -7,6 +7,7 @@
   
   <property name="src_app_home"  location="C:\dev_workspace\gates_fresh\source\gates"/> 
   <property name="jboss.bin.dir"  location="C:\softwares\jboss-eap-5.2\jboss-as\bin"/>
+  <property name="m2.home"  location="C:\softwares\apache-maven-3.3.3"/>
   <property file="module.properties" />
   <property name="bsh.path"
     location="./lib/bsh-2.0b5.jar" />
@@ -29,7 +30,7 @@
 	<condition property="mavenExecutableFile" value="mvn.cmd" else="mvn">
 		<os family="windows" />
 	</condition>
-	<var name="mavenExecutable" value="${env.M2_HOME}\bin\${mavenExecutableFile}"/>
+	<var name="mavenExecutable" value="${m2.home}\bin\${mavenExecutableFile}"/>
 	
 	<available file="${mavenExecutable}"  property="maven.exec.exists" />
 	<if>
@@ -37,7 +38,7 @@
 			<isset property="${maven.exec.exists}" />
 		</not>
 		<then>
-			<var name="mavenExecutable" value="C:\softwares\apache-maven-3.3.3\bin\${mavenExecutableFile}"/>
+			<var name="mavenExecutable" value="${m2.home}\bin\${mavenExecutableFile}"/>
 			<available file="${mavenExecutable}"  property="maven.exec.exists" />
 		</then>
 	</if>
@@ -199,7 +200,7 @@
 		  import javax.swing.*; 
 		  JOptionPane.showMessageDialog( 
 			  null, "CVS update and build completes "+new java.text.SimpleDateFormat("MM/dd/yyyy HH:mm:ss").format(new java.util.Date()), 
-			 "Danger Danger", JOptionPane.ERROR_MESSAGE); 
+			 "Good Morning ... ", JOptionPane.ERROR_MESSAGE); 
 		</script> 
  </target>
   <!-- Stop Jboss -->

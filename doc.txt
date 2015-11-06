@@ -1,0 +1,85 @@
+run.bat -Djava.rmi.server.hostname=127.0.0.1 -Ddisable.gates.rules=TRUE -b 127.0.0.1 -c gates < nul
+
+
+<profile>
+		<id>CustomBuildProfile</id>
+		<build>
+			<plugins>
+				<!--plugin>
+					<groupId>org.codehaus.mojo</groupId>
+					<artifactId>aspectj-maven-plugin</artifactId>
+					<executions>
+						<execution>
+							<id>compile</id>
+							<phase>none</phase>
+						</execution>
+						<execution>
+							<id>test-compile</id>
+							<phase>none</phase>
+						</execution>
+					</executions>
+				</plugin-->
+				<plugin>
+				   <groupId>org.apache.maven.plugins</groupId>
+				   <artifactId>maven-assembly-plugin</artifactId>
+				   <version>2.2.1</version>
+				   <configuration>
+						<descriptors>
+							<descriptor>assemble-static-web-content.xml</descriptor>
+						</descriptors>
+						<skipAssembly>true</skipAssembly>
+				   </configuration>
+				   <executions>
+						<execution>
+							<id>make-assembly</id>
+							<phase>package</phase>
+							<goals>
+								<goal>single</goal>
+							</goals>
+						</execution>
+				   </executions>
+				</plugin>
+				<plugin>
+					<groupId>ro.isdc.wro4j</groupId>
+					<artifactId>wro4j-maven-plugin</artifactId>
+					<version>1.7.9</version>
+					
+					<dependencies>
+						<dependency>
+							<groupId>ro.isdc.wro4j</groupId>
+							<artifactId>wro4j-core</artifactId>
+							<version>1.7.9</version>
+						</dependency>
+					</dependencies>
+					
+					<executions>
+						<execution>
+							<id>js-optimization</id>
+							<!-- 
+							 - Refer:
+							 -   > https://code.google.com/p/wro4j/wiki/MavenPlugin
+							 -   > https://code.google.com/p/wro4j/wiki/ConfigurationOptions
+							 -->						
+							<configuration>
+								<minimize>false</minimize>
+								<destinationFolder>${basedir}/src/main/webapp/resources/js/js-optimized/</destinationFolder>
+								<contextFolder>${basedir}/src/main/webapp/</contextFolder>
+								<wroManagerFactory>ro.isdc.wro.maven.plugin.manager.factory.ConfigurableWroManagerFactory</wroManagerFactory>
+								<wroFile>${basedir}/src/main/webapp/WEB-INF/wro.xml</wroFile>
+								<extraConfigFile>${basedir}/src/main/webapp/WEB-INF/wro.properties</extraConfigFile>
+								<ignoreMissingResources>true</ignoreMissingResources>
+								<parallelProcessing>true</parallelProcessing>
+								<skip>true</skip>
+							</configuration>
+							
+							<phase>compile</phase>
+							
+							<goals>
+								<goal>run</goal>
+							</goals>
+						</execution>
+					</executions>
+			  </plugin>				
+			</plugins>
+		</build>		
+	</profile>
