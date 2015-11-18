@@ -1,0 +1,45 @@
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] gates .............................................. SUCCESS [  5.337 s]
+[INFO] gates-common-parent ................................ SUCCESS [  6.292 s]
+[INFO] gates-common ....................................... SUCCESS [01:23 min]
+[INFO] gates-cp ........................................... SUCCESS [  0.245 s]
+[INFO] gates-cp-service-client ............................ SUCCESS [  8.957 s]
+[INFO] gates-cp-service ................................... SUCCESS [ 33.149 s]
+[INFO] gates-tm ........................................... SUCCESS [  0.245 s]
+[INFO] gates-tm-service-client ............................ SUCCESS [  7.614 s]
+[INFO] gates-service-parent ............................... SUCCESS [  0.397 s]
+[INFO] gates-re ........................................... SUCCESS [  0.130 s]
+[INFO] Gates Re Service Client ............................ SUCCESS [  4.701 s]
+[INFO] gates-qt ........................................... SUCCESS [  0.190 s]
+[INFO] gates-qt-service-client ............................ SUCCESS [  5.344 s]
+[INFO] gates-tm-service ................................... SUCCESS [ 26.921 s]
+[INFO] gates-qt-service ................................... SUCCESS [ 17.785 s]
+[INFO] gates-edi .......................................... SUCCESS [  4.904 s]
+[INFO] gates-bk ........................................... SUCCESS [  0.170 s]
+[INFO] gates-bk-service-client ............................ SUCCESS [  9.273 s]
+[INFO] gates-sp ........................................... SUCCESS [  0.154 s]
+[INFO] gates-sp-service-client ............................ SUCCESS [  2.293 s]
+[INFO] gates-re-service ................................... SUCCESS [ 24.937 s]
+[INFO] gates-bk-service ................................... SUCCESS [ 47.565 s]
+[INFO] gates-integration .................................. SUCCESS [  0.152 s]
+[INFO] gates-integration-core ............................. SUCCESS [  2.817 s]
+[INFO] gates-bl ........................................... SUCCESS [  0.139 s]
+[INFO] gates-bl-service-client ............................ SUCCESS [ 19.899 s]
+[INFO] gates-sp-service ................................... SUCCESS [  8.407 s]
+[INFO] gates-bl-service ................................... SUCCESS [01:23 min]
+[INFO] GATES Integration Pipelines Project ................ SUCCESS [ 26.068 s]
+[INFO] GATES Integration Engine Project ................... SUCCESS [  2.370 s]
+[INFO] gates-interactive-web .............................. SUCCESS [05:22 min]
+[INFO] gates-interactive-app .............................. SUCCESS [ 16.832 s]
+[INFO] gates-batch ........................................ SUCCESS [02:16 min]
+[INFO] gates-service-web .................................. SUCCESS [ 22.449 s]
+[INFO] gatesWebService Spring-WS Application .............. SUCCESS [ 22.886 s]
+[INFO] gates-service-app .................................. SUCCESS [ 17.888 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 16:13 min
+[INFO] Finished at: 2015-11-18T07:19:19-07:00
+[INFO] Final Memory: 54M/1048M
+[INFO] ------------------------------------------------------------------------

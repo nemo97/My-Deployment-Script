@@ -43,7 +43,10 @@ object LogAnalyser extends App {
 	//lines.foreach(test)
 	
 	val selectedLines = lines.slice(index,lines.size);
-	selectedLines.foreach(println);  
+	selectedLines.foreach(println); 
+	printToFile(new java.io.File("C:/softwares/AntScripts/logs/message.txt")) { p =>
+	  selectedLines.foreach(p.println)
+	}	
  }
  finally {
 	source.close() 
@@ -57,5 +60,9 @@ def findIndex(x:String):Boolean = {
 	//println(x)
 	
 	return x.contains("Reactor Summary");
+}
+def printToFile(f: java.io.File)(op: java.io.PrintWriter => Unit) {
+  val p = new java.io.PrintWriter(f)
+  try { op(p) } finally { p.close() }
 }
 LogAnalyser.main(args)

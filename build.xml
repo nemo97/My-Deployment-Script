@@ -198,11 +198,12 @@
    
    <target name="compile-simple" description="Compile no fancy all">
 		<exec dir="${src_app_home}" executable="${mavenExecutable}">      					
-			<!--arg value="clean" /-->
+			<arg value="clean" />
 			<arg value="install" />
 			<arg value="-l" />
 			<arg value="${log.dir}\full.txt" />
-			<arg value="-Dmaven.test.skip=true" />
+			<arg value="-Dmaven.test.skip=true" />			
+			<arg value="-Dmaven.clean.failOnError=false" />
 		</exec>
    </target>
 	  
