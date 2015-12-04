@@ -1,180 +1,180 @@
 [INFO] Scanning for projects...
 [WARNING] 
-[WARNING] Some problems were encountered while building the effective model for com.matson.gates:gates-common-parent:pom:04.88.0-SNAPSHOT
+[WARNING] Some problems were encountered while building the effective model for com.matson.gates:gates-common-parent:pom:04.90.0-SNAPSHOT
 [WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version (?) @ line 318, column 15
-[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version ${jta-version} @ com.matson.gates:gates:04.88.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\pom.xml, line 701, column 16
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version ${jta-version} @ com.matson.gates:gates:04.90.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\pom.xml, line 701, column 16
 [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ line 492, column 12
 [WARNING] 
-[WARNING] Some problems were encountered while building the effective model for com.matson.gates:gates-common:jar:04.88.0-SNAPSHOT
+[WARNING] Some problems were encountered while building the effective model for com.matson.gates:gates-common:jar:04.90.0-SNAPSHOT
 [WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.codehaus.jackson:jackson-mapper-asl:jar -> duplicate declaration of version 1.7.1 @ line 115, column 15
-[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version (?) @ com.matson.gates:gates-common-parent:04.88.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 318, column 15
-[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version ${jta-version} @ com.matson.gates:gates:04.88.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\pom.xml, line 701, column 16
-[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ com.matson.gates:gates-common-parent:04.88.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 492, column 12
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version (?) @ com.matson.gates:gates-common-parent:04.90.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 318, column 15
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version ${jta-version} @ com.matson.gates:gates:04.90.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\pom.xml, line 701, column 16
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ com.matson.gates:gates-common-parent:04.90.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 492, column 12
 [WARNING] 
-[WARNING] Some problems were encountered while building the effective model for com.matson.gates:gates-edi:jar:04.88.0-SNAPSHOT
-[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version ${jta-version} @ com.matson.gates:gates:04.88.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\pom.xml, line 701, column 16
-[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ com.matson.gates:gates:04.88.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\pom.xml, line 972, column 12
+[WARNING] Some problems were encountered while building the effective model for com.matson.gates:gates-edi:jar:04.90.0-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version ${jta-version} @ com.matson.gates:gates:04.90.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\pom.xml, line 701, column 16
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ com.matson.gates:gates:04.90.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\pom.xml, line 972, column 12
 [WARNING] 
-[WARNING] Some problems were encountered while building the effective model for com.matson.gates:gates-cp-service-client:jar:04.88.0-SNAPSHOT
-[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version (?) @ com.matson.gates:gates-common-parent:04.88.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 318, column 15
-[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version ${jta-version} @ com.matson.gates:gates:04.88.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\pom.xml, line 701, column 16
-[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ com.matson.gates:gates-common-parent:04.88.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 492, column 12
+[WARNING] Some problems were encountered while building the effective model for com.matson.gates:gates-cp-service-client:jar:04.90.0-SNAPSHOT
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version (?) @ com.matson.gates:gates-common-parent:04.90.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 318, column 15
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version ${jta-version} @ com.matson.gates:gates:04.90.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\pom.xml, line 701, column 16
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ com.matson.gates:gates-common-parent:04.90.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 492, column 12
 [WARNING] 
-[WARNING] Some problems were encountered while building the effective model for com.matson.gates:gates-cp-service:jar:04.88.0-SNAPSHOT
-[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version (?) @ com.matson.gates:gates-common-parent:04.88.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 318, column 15
-[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version ${jta-version} @ com.matson.gates:gates:04.88.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\pom.xml, line 701, column 16
-[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ com.matson.gates:gates-common-parent:04.88.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 492, column 12
+[WARNING] Some problems were encountered while building the effective model for com.matson.gates:gates-cp-service:jar:04.90.0-SNAPSHOT
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version (?) @ com.matson.gates:gates-common-parent:04.90.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 318, column 15
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version ${jta-version} @ com.matson.gates:gates:04.90.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\pom.xml, line 701, column 16
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ com.matson.gates:gates-common-parent:04.90.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 492, column 12
 [WARNING] 
-[WARNING] Some problems were encountered while building the effective model for com.matson.gates:gates-cp:pom:04.88.0-SNAPSHOT
-[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version (?) @ com.matson.gates:gates-common-parent:04.88.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 318, column 15
-[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version ${jta-version} @ com.matson.gates:gates:04.88.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\pom.xml, line 701, column 16
-[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ com.matson.gates:gates-common-parent:04.88.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 492, column 12
+[WARNING] Some problems were encountered while building the effective model for com.matson.gates:gates-cp:pom:04.90.0-SNAPSHOT
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version (?) @ com.matson.gates:gates-common-parent:04.90.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 318, column 15
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version ${jta-version} @ com.matson.gates:gates:04.90.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\pom.xml, line 701, column 16
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ com.matson.gates:gates-common-parent:04.90.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 492, column 12
 [WARNING] 
-[WARNING] Some problems were encountered while building the effective model for com.matson.gates:gates-tm-service-client:jar:04.88.0-SNAPSHOT
-[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version (?) @ com.matson.gates:gates-common-parent:04.88.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 318, column 15
-[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version ${jta-version} @ com.matson.gates:gates:04.88.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\pom.xml, line 701, column 16
-[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ com.matson.gates:gates-common-parent:04.88.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 492, column 12
+[WARNING] Some problems were encountered while building the effective model for com.matson.gates:gates-tm-service-client:jar:04.90.0-SNAPSHOT
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version (?) @ com.matson.gates:gates-common-parent:04.90.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 318, column 15
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version ${jta-version} @ com.matson.gates:gates:04.90.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\pom.xml, line 701, column 16
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ com.matson.gates:gates-common-parent:04.90.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 492, column 12
 [WARNING] 
-[WARNING] Some problems were encountered while building the effective model for com.matson.gates:gates-tm-service:jar:04.88.0-SNAPSHOT
-[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version (?) @ com.matson.gates:gates-common-parent:04.88.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 318, column 15
-[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version ${jta-version} @ com.matson.gates:gates:04.88.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\pom.xml, line 701, column 16
-[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ com.matson.gates:gates-common-parent:04.88.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 492, column 12
+[WARNING] Some problems were encountered while building the effective model for com.matson.gates:gates-tm-service:jar:04.90.0-SNAPSHOT
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version (?) @ com.matson.gates:gates-common-parent:04.90.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 318, column 15
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version ${jta-version} @ com.matson.gates:gates:04.90.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\pom.xml, line 701, column 16
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ com.matson.gates:gates-common-parent:04.90.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 492, column 12
 [WARNING] 
-[WARNING] Some problems were encountered while building the effective model for com.matson.gates:gates-tm:pom:04.88.0-SNAPSHOT
-[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version (?) @ com.matson.gates:gates-common-parent:04.88.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 318, column 15
-[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version ${jta-version} @ com.matson.gates:gates:04.88.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\pom.xml, line 701, column 16
-[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ com.matson.gates:gates-common-parent:04.88.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 492, column 12
+[WARNING] Some problems were encountered while building the effective model for com.matson.gates:gates-tm:pom:04.90.0-SNAPSHOT
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version (?) @ com.matson.gates:gates-common-parent:04.90.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 318, column 15
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version ${jta-version} @ com.matson.gates:gates:04.90.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\pom.xml, line 701, column 16
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ com.matson.gates:gates-common-parent:04.90.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 492, column 12
 [WARNING] 
-[WARNING] Some problems were encountered while building the effective model for com.matson.gates:gates-qt-service-client:jar:04.88.0-SNAPSHOT
-[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version (?) @ com.matson.gates:gates-common-parent:04.88.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 318, column 15
-[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version ${jta-version} @ com.matson.gates:gates:04.88.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\pom.xml, line 701, column 16
-[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ com.matson.gates:gates-common-parent:04.88.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 492, column 12
+[WARNING] Some problems were encountered while building the effective model for com.matson.gates:gates-qt-service-client:jar:04.90.0-SNAPSHOT
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version (?) @ com.matson.gates:gates-common-parent:04.90.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 318, column 15
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version ${jta-version} @ com.matson.gates:gates:04.90.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\pom.xml, line 701, column 16
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ com.matson.gates:gates-common-parent:04.90.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 492, column 12
 [WARNING] 
-[WARNING] Some problems were encountered while building the effective model for com.matson.gates:gates-qt-service:jar:04.88.0-SNAPSHOT
-[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version (?) @ com.matson.gates:gates-common-parent:04.88.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 318, column 15
-[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version ${jta-version} @ com.matson.gates:gates:04.88.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\pom.xml, line 701, column 16
-[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ com.matson.gates:gates-common-parent:04.88.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 492, column 12
+[WARNING] Some problems were encountered while building the effective model for com.matson.gates:gates-qt-service:jar:04.90.0-SNAPSHOT
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version (?) @ com.matson.gates:gates-common-parent:04.90.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 318, column 15
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version ${jta-version} @ com.matson.gates:gates:04.90.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\pom.xml, line 701, column 16
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ com.matson.gates:gates-common-parent:04.90.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 492, column 12
 [WARNING] 
-[WARNING] Some problems were encountered while building the effective model for com.matson.gates:gates-qt:pom:04.88.0-SNAPSHOT
-[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version (?) @ com.matson.gates:gates-common-parent:04.88.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 318, column 15
-[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version ${jta-version} @ com.matson.gates:gates:04.88.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\pom.xml, line 701, column 16
-[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ com.matson.gates:gates-common-parent:04.88.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 492, column 12
+[WARNING] Some problems were encountered while building the effective model for com.matson.gates:gates-qt:pom:04.90.0-SNAPSHOT
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version (?) @ com.matson.gates:gates-common-parent:04.90.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 318, column 15
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version ${jta-version} @ com.matson.gates:gates:04.90.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\pom.xml, line 701, column 16
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ com.matson.gates:gates-common-parent:04.90.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 492, column 12
 [WARNING] 
-[WARNING] Some problems were encountered while building the effective model for com.matson.gates:gates-bk-service-client:jar:04.88.0-SNAPSHOT
-[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version (?) @ com.matson.gates:gates-common-parent:04.88.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 318, column 15
-[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version ${jta-version} @ com.matson.gates:gates:04.88.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\pom.xml, line 701, column 16
-[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ com.matson.gates:gates-common-parent:04.88.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 492, column 12
+[WARNING] Some problems were encountered while building the effective model for com.matson.gates:gates-bk-service-client:jar:04.90.0-SNAPSHOT
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version (?) @ com.matson.gates:gates-common-parent:04.90.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 318, column 15
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version ${jta-version} @ com.matson.gates:gates:04.90.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\pom.xml, line 701, column 16
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ com.matson.gates:gates-common-parent:04.90.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 492, column 12
 [WARNING] 
-[WARNING] Some problems were encountered while building the effective model for com.matson.gates:gates-bk-service:jar:04.88.0-SNAPSHOT
-[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version (?) @ com.matson.gates:gates-common-parent:04.88.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 318, column 15
-[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version ${jta-version} @ com.matson.gates:gates:04.88.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\pom.xml, line 701, column 16
-[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ com.matson.gates:gates-common-parent:04.88.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 492, column 12
+[WARNING] Some problems were encountered while building the effective model for com.matson.gates:gates-bk-service:jar:04.90.0-SNAPSHOT
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version (?) @ com.matson.gates:gates-common-parent:04.90.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 318, column 15
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version ${jta-version} @ com.matson.gates:gates:04.90.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\pom.xml, line 701, column 16
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ com.matson.gates:gates-common-parent:04.90.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 492, column 12
 [WARNING] 
-[WARNING] Some problems were encountered while building the effective model for com.matson.gates:gates-bk:pom:04.88.0-SNAPSHOT
-[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version (?) @ com.matson.gates:gates-common-parent:04.88.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 318, column 15
-[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version ${jta-version} @ com.matson.gates:gates:04.88.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\pom.xml, line 701, column 16
-[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ com.matson.gates:gates-common-parent:04.88.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 492, column 12
+[WARNING] Some problems were encountered while building the effective model for com.matson.gates:gates-bk:pom:04.90.0-SNAPSHOT
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version (?) @ com.matson.gates:gates-common-parent:04.90.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 318, column 15
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version ${jta-version} @ com.matson.gates:gates:04.90.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\pom.xml, line 701, column 16
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ com.matson.gates:gates-common-parent:04.90.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 492, column 12
 [WARNING] 
-[WARNING] Some problems were encountered while building the effective model for com.matson.gates:gates-re-service:jar:04.88.0-SNAPSHOT
-[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version (?) @ com.matson.gates:gates-common-parent:04.88.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 318, column 15
-[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version ${jta-version} @ com.matson.gates:gates:04.88.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\pom.xml, line 701, column 16
-[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ com.matson.gates:gates-common-parent:04.88.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 492, column 12
+[WARNING] Some problems were encountered while building the effective model for com.matson.gates:gates-re-service:jar:04.90.0-SNAPSHOT
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version (?) @ com.matson.gates:gates-common-parent:04.90.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 318, column 15
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version ${jta-version} @ com.matson.gates:gates:04.90.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\pom.xml, line 701, column 16
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ com.matson.gates:gates-common-parent:04.90.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 492, column 12
 [WARNING] 
-[WARNING] Some problems were encountered while building the effective model for com.matson.gates:gates-re-service-client:jar:04.88.0-SNAPSHOT
-[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version (?) @ com.matson.gates:gates-common-parent:04.88.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 318, column 15
-[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version ${jta-version} @ com.matson.gates:gates:04.88.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\pom.xml, line 701, column 16
-[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ com.matson.gates:gates-common-parent:04.88.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 492, column 12
+[WARNING] Some problems were encountered while building the effective model for com.matson.gates:gates-re-service-client:jar:04.90.0-SNAPSHOT
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version (?) @ com.matson.gates:gates-common-parent:04.90.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 318, column 15
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version ${jta-version} @ com.matson.gates:gates:04.90.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\pom.xml, line 701, column 16
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ com.matson.gates:gates-common-parent:04.90.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 492, column 12
 [WARNING] 
-[WARNING] Some problems were encountered while building the effective model for com.matson.gates:gates-re:pom:04.88.0-SNAPSHOT
-[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version (?) @ com.matson.gates:gates-common-parent:04.88.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 318, column 15
-[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version ${jta-version} @ com.matson.gates:gates:04.88.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\pom.xml, line 701, column 16
-[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ com.matson.gates:gates-common-parent:04.88.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 492, column 12
+[WARNING] Some problems were encountered while building the effective model for com.matson.gates:gates-re:pom:04.90.0-SNAPSHOT
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version (?) @ com.matson.gates:gates-common-parent:04.90.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 318, column 15
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version ${jta-version} @ com.matson.gates:gates:04.90.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\pom.xml, line 701, column 16
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ com.matson.gates:gates-common-parent:04.90.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 492, column 12
 [WARNING] 
-[WARNING] Some problems were encountered while building the effective model for com.matson.gates.integration:gates-integration-core:jar:04.88.0-SNAPSHOT
-[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version (?) @ com.matson.gates:gates-common-parent:04.88.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 318, column 15
-[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version ${jta-version} @ com.matson.gates:gates:04.88.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\pom.xml, line 701, column 16
-[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ com.matson.gates:gates-common-parent:04.88.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 492, column 12
+[WARNING] Some problems were encountered while building the effective model for com.matson.gates.integration:gates-integration-core:jar:04.90.0-SNAPSHOT
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version (?) @ com.matson.gates:gates-common-parent:04.90.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 318, column 15
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version ${jta-version} @ com.matson.gates:gates:04.90.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\pom.xml, line 701, column 16
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ com.matson.gates:gates-common-parent:04.90.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 492, column 12
 [WARNING] 
-[WARNING] Some problems were encountered while building the effective model for com.matson.gates.integration:gates-integration-engine:jar:04.88.0-SNAPSHOT
-[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version (?) @ com.matson.gates:gates-common-parent:04.88.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 318, column 15
-[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version ${jta-version} @ com.matson.gates:gates:04.88.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\pom.xml, line 701, column 16
-[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ com.matson.gates:gates-common-parent:04.88.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 492, column 12
+[WARNING] Some problems were encountered while building the effective model for com.matson.gates.integration:gates-integration-engine:jar:04.90.0-SNAPSHOT
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version (?) @ com.matson.gates:gates-common-parent:04.90.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 318, column 15
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version ${jta-version} @ com.matson.gates:gates:04.90.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\pom.xml, line 701, column 16
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ com.matson.gates:gates-common-parent:04.90.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 492, column 12
 [WARNING] 
-[WARNING] Some problems were encountered while building the effective model for com.matson.gates.integration:gates-integration-pipelines:jar:04.88.0-SNAPSHOT
-[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version (?) @ com.matson.gates:gates-common-parent:04.88.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 318, column 15
-[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version ${jta-version} @ com.matson.gates:gates:04.88.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\pom.xml, line 701, column 16
-[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ com.matson.gates:gates-common-parent:04.88.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 492, column 12
+[WARNING] Some problems were encountered while building the effective model for com.matson.gates.integration:gates-integration-pipelines:jar:04.90.0-SNAPSHOT
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version (?) @ com.matson.gates:gates-common-parent:04.90.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 318, column 15
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version ${jta-version} @ com.matson.gates:gates:04.90.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\pom.xml, line 701, column 16
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ com.matson.gates:gates-common-parent:04.90.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 492, column 12
 [WARNING] 
-[WARNING] Some problems were encountered while building the effective model for com.matson.gates.integration:gates-integration:pom:04.88.0-SNAPSHOT
-[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version (?) @ com.matson.gates:gates-common-parent:04.88.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 318, column 15
-[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version ${jta-version} @ com.matson.gates:gates:04.88.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\pom.xml, line 701, column 16
-[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ com.matson.gates:gates-common-parent:04.88.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 492, column 12
+[WARNING] Some problems were encountered while building the effective model for com.matson.gates.integration:gates-integration:pom:04.90.0-SNAPSHOT
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version (?) @ com.matson.gates:gates-common-parent:04.90.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 318, column 15
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version ${jta-version} @ com.matson.gates:gates:04.90.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\pom.xml, line 701, column 16
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ com.matson.gates:gates-common-parent:04.90.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 492, column 12
 [WARNING] 
-[WARNING] Some problems were encountered while building the effective model for com.matson.gates:gates-interactive-web:war:04.88.0-SNAPSHOT
-[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version (?) @ com.matson.gates:gates-common-parent:04.88.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 318, column 15
-[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version ${jta-version} @ com.matson.gates:gates:04.88.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\pom.xml, line 701, column 16
-[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ com.matson.gates:gates-common-parent:04.88.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 492, column 12
+[WARNING] Some problems were encountered while building the effective model for com.matson.gates:gates-interactive-web:war:04.90.0-SNAPSHOT
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version (?) @ com.matson.gates:gates-common-parent:04.90.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 318, column 15
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version ${jta-version} @ com.matson.gates:gates:04.90.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\pom.xml, line 701, column 16
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ com.matson.gates:gates-common-parent:04.90.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 492, column 12
 [WARNING] 
-[WARNING] Some problems were encountered while building the effective model for com.matson.gates:gates-interactive-app:ear:04.88.0-SNAPSHOT
-[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version ${jta-version} @ com.matson.gates:gates:04.88.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\pom.xml, line 701, column 16
-[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ com.matson.gates:gates:04.88.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\pom.xml, line 972, column 12
+[WARNING] Some problems were encountered while building the effective model for com.matson.gates:gates-interactive-app:ear:04.90.0-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version ${jta-version} @ com.matson.gates:gates:04.90.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\pom.xml, line 701, column 16
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ com.matson.gates:gates:04.90.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\pom.xml, line 972, column 12
 [WARNING] 
-[WARNING] Some problems were encountered while building the effective model for com.matson.gates:gates-service-parent:pom:04.88.0-SNAPSHOT
-[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version (?) @ com.matson.gates:gates-common-parent:04.88.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 318, column 15
-[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version ${jta-version} @ com.matson.gates:gates:04.88.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\pom.xml, line 701, column 16
-[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ com.matson.gates:gates-common-parent:04.88.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 492, column 12
+[WARNING] Some problems were encountered while building the effective model for com.matson.gates:gates-service-parent:pom:04.90.0-SNAPSHOT
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version (?) @ com.matson.gates:gates-common-parent:04.90.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 318, column 15
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version ${jta-version} @ com.matson.gates:gates:04.90.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\pom.xml, line 701, column 16
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ com.matson.gates:gates-common-parent:04.90.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 492, column 12
 [WARNING] 
-[WARNING] Some problems were encountered while building the effective model for com.matson.gates:gates-service-web:war:04.88.0-SNAPSHOT
-[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version (?) @ com.matson.gates:gates-common-parent:04.88.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 318, column 15
-[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version ${jta-version} @ com.matson.gates:gates:04.88.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\pom.xml, line 701, column 16
-[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ com.matson.gates:gates-common-parent:04.88.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 492, column 12
+[WARNING] Some problems were encountered while building the effective model for com.matson.gates:gates-service-web:war:04.90.0-SNAPSHOT
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version (?) @ com.matson.gates:gates-common-parent:04.90.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 318, column 15
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version ${jta-version} @ com.matson.gates:gates:04.90.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\pom.xml, line 701, column 16
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ com.matson.gates:gates-common-parent:04.90.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 492, column 12
 [WARNING] 
-[WARNING] Some problems were encountered while building the effective model for com.matson.gates:gatesWebService:war:04.88.0-SNAPSHOT
-[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version (?) @ com.matson.gates:gates-common-parent:04.88.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 318, column 15
-[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version ${jta-version} @ com.matson.gates:gates:04.88.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\pom.xml, line 701, column 16
+[WARNING] Some problems were encountered while building the effective model for com.matson.gates:gatesWebService:war:04.90.0-SNAPSHOT
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version (?) @ com.matson.gates:gates-common-parent:04.90.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 318, column 15
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version ${jta-version} @ com.matson.gates:gates:04.90.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\pom.xml, line 701, column 16
 [WARNING] 'build.plugins.plugin.version' for org.jvnet.jaxb2.maven2:maven-jaxb2-plugin is missing. @ com.matson.gates:gatesWebService:[unknown-version], C:\dev_workspace\gates_fresh\source\gates\gatesWebService\pom.xml, line 54, column 21
-[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ com.matson.gates:gates-common-parent:04.88.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 492, column 12
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ com.matson.gates:gates-common-parent:04.90.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 492, column 12
 [WARNING] 
-[WARNING] Some problems were encountered while building the effective model for com.matson.gates:gates-service-app:ear:04.88.0-SNAPSHOT
-[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version ${jta-version} @ com.matson.gates:gates:04.88.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\pom.xml, line 701, column 16
-[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ com.matson.gates:gates:04.88.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\pom.xml, line 972, column 12
+[WARNING] Some problems were encountered while building the effective model for com.matson.gates:gates-service-app:ear:04.90.0-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version ${jta-version} @ com.matson.gates:gates:04.90.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\pom.xml, line 701, column 16
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ com.matson.gates:gates:04.90.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\pom.xml, line 972, column 12
 [WARNING] 
-[WARNING] Some problems were encountered while building the effective model for com.matson.gates:gates-batch:jar:04.88.0-SNAPSHOT
-[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version (?) @ com.matson.gates:gates-common-parent:04.88.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 318, column 15
-[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version ${jta-version} @ com.matson.gates:gates:04.88.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\pom.xml, line 701, column 16
-[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ com.matson.gates:gates-common-parent:04.88.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 492, column 12
+[WARNING] Some problems were encountered while building the effective model for com.matson.gates:gates-batch:jar:04.90.0-SNAPSHOT
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version (?) @ com.matson.gates:gates-common-parent:04.90.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 318, column 15
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version ${jta-version} @ com.matson.gates:gates:04.90.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\pom.xml, line 701, column 16
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ com.matson.gates:gates-common-parent:04.90.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 492, column 12
 [WARNING] 
-[WARNING] Some problems were encountered while building the effective model for com.matson.gates:gates-sp-service:jar:04.88.0-SNAPSHOT
-[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version (?) @ com.matson.gates:gates-common-parent:04.88.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 318, column 15
-[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version ${jta-version} @ com.matson.gates:gates:04.88.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\pom.xml, line 701, column 16
-[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ com.matson.gates:gates-common-parent:04.88.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 492, column 12
+[WARNING] Some problems were encountered while building the effective model for com.matson.gates:gates-sp-service:jar:04.90.0-SNAPSHOT
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version (?) @ com.matson.gates:gates-common-parent:04.90.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 318, column 15
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version ${jta-version} @ com.matson.gates:gates:04.90.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\pom.xml, line 701, column 16
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ com.matson.gates:gates-common-parent:04.90.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 492, column 12
 [WARNING] 
-[WARNING] Some problems were encountered while building the effective model for com.matson.gates:gates-sp-service-client:jar:04.88.0-SNAPSHOT
-[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version (?) @ com.matson.gates:gates-common-parent:04.88.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 318, column 15
-[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version ${jta-version} @ com.matson.gates:gates:04.88.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\pom.xml, line 701, column 16
-[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ com.matson.gates:gates-common-parent:04.88.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 492, column 12
+[WARNING] Some problems were encountered while building the effective model for com.matson.gates:gates-sp-service-client:jar:04.90.0-SNAPSHOT
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version (?) @ com.matson.gates:gates-common-parent:04.90.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 318, column 15
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version ${jta-version} @ com.matson.gates:gates:04.90.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\pom.xml, line 701, column 16
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ com.matson.gates:gates-common-parent:04.90.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 492, column 12
 [WARNING] 
-[WARNING] Some problems were encountered while building the effective model for com.matson.gates:gates-sp:pom:04.88.0-SNAPSHOT
-[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version (?) @ com.matson.gates:gates-common-parent:04.88.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 318, column 15
-[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version ${jta-version} @ com.matson.gates:gates:04.88.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\pom.xml, line 701, column 16
-[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ com.matson.gates:gates-common-parent:04.88.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 492, column 12
+[WARNING] Some problems were encountered while building the effective model for com.matson.gates:gates-sp:pom:04.90.0-SNAPSHOT
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version (?) @ com.matson.gates:gates-common-parent:04.90.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 318, column 15
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version ${jta-version} @ com.matson.gates:gates:04.90.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\pom.xml, line 701, column 16
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ com.matson.gates:gates-common-parent:04.90.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 492, column 12
 [WARNING] 
-[WARNING] Some problems were encountered while building the effective model for com.matson.gates:gates-bl-service-client:jar:04.88.0-SNAPSHOT
-[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version (?) @ com.matson.gates:gates-common-parent:04.88.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 318, column 15
-[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version ${jta-version} @ com.matson.gates:gates:04.88.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\pom.xml, line 701, column 16
-[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ com.matson.gates:gates-common-parent:04.88.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 492, column 12
+[WARNING] Some problems were encountered while building the effective model for com.matson.gates:gates-bl-service-client:jar:04.90.0-SNAPSHOT
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version (?) @ com.matson.gates:gates-common-parent:04.90.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 318, column 15
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version ${jta-version} @ com.matson.gates:gates:04.90.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\pom.xml, line 701, column 16
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ com.matson.gates:gates-common-parent:04.90.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 492, column 12
 [WARNING] 
-[WARNING] Some problems were encountered while building the effective model for com.matson.gates:gates-bl-service:jar:04.88.0-SNAPSHOT
-[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version (?) @ com.matson.gates:gates-common-parent:04.88.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 318, column 15
-[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version ${jta-version} @ com.matson.gates:gates:04.88.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\pom.xml, line 701, column 16
-[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ com.matson.gates:gates-common-parent:04.88.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 492, column 12
+[WARNING] Some problems were encountered while building the effective model for com.matson.gates:gates-bl-service:jar:04.90.0-SNAPSHOT
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version (?) @ com.matson.gates:gates-common-parent:04.90.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 318, column 15
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version ${jta-version} @ com.matson.gates:gates:04.90.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\pom.xml, line 701, column 16
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ com.matson.gates:gates-common-parent:04.90.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 492, column 12
 [WARNING] 
-[WARNING] Some problems were encountered while building the effective model for com.matson.gates:gates-bl:pom:04.88.0-SNAPSHOT
-[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version (?) @ com.matson.gates:gates-common-parent:04.88.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 318, column 15
-[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version ${jta-version} @ com.matson.gates:gates:04.88.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\pom.xml, line 701, column 16
-[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ com.matson.gates:gates-common-parent:04.88.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 492, column 12
+[WARNING] Some problems were encountered while building the effective model for com.matson.gates:gates-bl:pom:04.90.0-SNAPSHOT
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version (?) @ com.matson.gates:gates-common-parent:04.90.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 318, column 15
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version ${jta-version} @ com.matson.gates:gates:04.90.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\pom.xml, line 701, column 16
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ com.matson.gates:gates-common-parent:04.90.0-SNAPSHOT, C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml, line 492, column 12
 [WARNING] 
-[WARNING] Some problems were encountered while building the effective model for com.matson.gates:gates:pom:04.88.0-SNAPSHOT
+[WARNING] Some problems were encountered while building the effective model for com.matson.gates:gates:pom:04.90.0-SNAPSHOT
 [WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.transaction:jta:jar -> duplicate declaration of version ${jta-version} @ line 701, column 16
 [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ line 972, column 12
 [WARNING] 
@@ -223,18 +223,16 @@
 [INFO] gates-service-app
 [INFO]                                                                         
 [INFO] ------------------------------------------------------------------------
-[INFO] Building gates 04.88.0-SNAPSHOT
+[INFO] Building gates 04.90.0-SNAPSHOT
 [INFO] ------------------------------------------------------------------------
-[INFO] Downloading: http://10.8.7.59:8081/nexus/content/groups/public/org/apache/maven/plugins/maven-surefire-plugin/maven-metadata.xml
-[INFO] Downloaded: http://10.8.7.59:8081/nexus/content/groups/public/org/apache/maven/plugins/maven-surefire-plugin/maven-metadata.xml (2 KB at 3.4 KB/sec)
 [INFO] 
 [INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ gates ---
 [INFO] 
 [INFO] --- maven-install-plugin:2.4:install (default-install) @ gates ---
-[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\pom.xml to C:\Users\ssing\.m2\repository\com\matson\gates\gates\04.88.0-SNAPSHOT\gates-04.88.0-SNAPSHOT.pom
+[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\pom.xml to C:\Users\ssing\.m2\repository\com\matson\gates\gates\04.90.0-SNAPSHOT\gates-04.90.0-SNAPSHOT.pom
 [INFO]                                                                         
 [INFO] ------------------------------------------------------------------------
-[INFO] Building gates-common-parent 04.88.0-SNAPSHOT
+[INFO] Building gates-common-parent 04.90.0-SNAPSHOT
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ gates-common-parent ---
@@ -244,18 +242,11 @@
 [INFO] --- aspectj-maven-plugin:1.2:test-compile (default) @ gates-common-parent ---
 [INFO] 
 [INFO] --- maven-install-plugin:2.4:install (default-install) @ gates-common-parent ---
-[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml to C:\Users\ssing\.m2\repository\com\matson\gates\gates-common-parent\04.88.0-SNAPSHOT\gates-common-parent-04.88.0-SNAPSHOT.pom
+[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gates-common-parent\pom.xml to C:\Users\ssing\.m2\repository\com\matson\gates\gates-common-parent\04.90.0-SNAPSHOT\gates-common-parent-04.90.0-SNAPSHOT.pom
 [INFO]                                                                         
 [INFO] ------------------------------------------------------------------------
-[INFO] Building gates-common 04.88.0-SNAPSHOT
+[INFO] Building gates-common 04.90.0-SNAPSHOT
 [INFO] ------------------------------------------------------------------------
-[INFO] Downloading: https://repo.maven.apache.org/maven2/org/jvnet/staxex/stax-ex/maven-metadata.xml
-[INFO] Downloading: http://repository.jboss.org/nexus/content/groups/public/org/jvnet/staxex/stax-ex/maven-metadata.xml
-[INFO] Downloading: http://10.8.7.59:8081/nexus/content/groups/public/org/jvnet/staxex/stax-ex/maven-metadata.xml
-[INFO] Downloading: http://download.java.net/maven/2/org/jvnet/staxex/stax-ex/maven-metadata.xml
-[INFO] Downloaded: http://10.8.7.59:8081/nexus/content/groups/public/org/jvnet/staxex/stax-ex/maven-metadata.xml (794 B at 2.3 KB/sec)
-[INFO] Downloaded: http://repository.jboss.org/nexus/content/groups/public/org/jvnet/staxex/stax-ex/maven-metadata.xml (583 B at 0.6 KB/sec)
-[INFO] Downloaded: https://repo.maven.apache.org/maven2/org/jvnet/staxex/stax-ex/maven-metadata.xml (769 B at 0.4 KB/sec)
 [INFO] 
 [INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ gates-common ---
 [INFO] Deleting C:\dev_workspace\gates_fresh\source\gates\gates-common\target
@@ -300,14 +291,14 @@
 [INFO] Tests are skipped.
 [INFO] 
 [INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ gates-common ---
-[INFO] Building jar: C:\dev_workspace\gates_fresh\source\gates\gates-common\target\gates-common-04.88.0-SNAPSHOT.jar
+[INFO] Building jar: C:\dev_workspace\gates_fresh\source\gates\gates-common\target\gates-common-04.90.0-SNAPSHOT.jar
 [INFO] 
 [INFO] --- maven-install-plugin:2.4:install (default-install) @ gates-common ---
-[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gates-common\target\gates-common-04.88.0-SNAPSHOT.jar to C:\Users\ssing\.m2\repository\com\matson\gates\gates-common\04.88.0-SNAPSHOT\gates-common-04.88.0-SNAPSHOT.jar
-[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gates-common\pom.xml to C:\Users\ssing\.m2\repository\com\matson\gates\gates-common\04.88.0-SNAPSHOT\gates-common-04.88.0-SNAPSHOT.pom
+[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gates-common\target\gates-common-04.90.0-SNAPSHOT.jar to C:\Users\ssing\.m2\repository\com\matson\gates\gates-common\04.90.0-SNAPSHOT\gates-common-04.90.0-SNAPSHOT.jar
+[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gates-common\pom.xml to C:\Users\ssing\.m2\repository\com\matson\gates\gates-common\04.90.0-SNAPSHOT\gates-common-04.90.0-SNAPSHOT.pom
 [INFO]                                                                         
 [INFO] ------------------------------------------------------------------------
-[INFO] Building gates-cp 04.88.0-SNAPSHOT
+[INFO] Building gates-cp 04.90.0-SNAPSHOT
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ gates-cp ---
@@ -317,10 +308,10 @@
 [INFO] --- aspectj-maven-plugin:1.2:test-compile (default) @ gates-cp ---
 [INFO] 
 [INFO] --- maven-install-plugin:2.4:install (default-install) @ gates-cp ---
-[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gates-cp\pom.xml to C:\Users\ssing\.m2\repository\com\matson\gates\gates-cp\04.88.0-SNAPSHOT\gates-cp-04.88.0-SNAPSHOT.pom
+[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gates-cp\pom.xml to C:\Users\ssing\.m2\repository\com\matson\gates\gates-cp\04.90.0-SNAPSHOT\gates-cp-04.90.0-SNAPSHOT.pom
 [INFO]                                                                         
 [INFO] ------------------------------------------------------------------------
-[INFO] Building gates-cp-service-client 04.88.0-SNAPSHOT
+[INFO] Building gates-cp-service-client 04.90.0-SNAPSHOT
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ gates-cp-service-client ---
@@ -352,14 +343,14 @@
 [INFO] Tests are skipped.
 [INFO] 
 [INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ gates-cp-service-client ---
-[INFO] Building jar: C:\dev_workspace\gates_fresh\source\gates\gates-cp\gates-cp-service-client\target\gates-cp-service-client-04.88.0-SNAPSHOT.jar
+[INFO] Building jar: C:\dev_workspace\gates_fresh\source\gates\gates-cp\gates-cp-service-client\target\gates-cp-service-client-04.90.0-SNAPSHOT.jar
 [INFO] 
 [INFO] --- maven-install-plugin:2.4:install (default-install) @ gates-cp-service-client ---
-[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gates-cp\gates-cp-service-client\target\gates-cp-service-client-04.88.0-SNAPSHOT.jar to C:\Users\ssing\.m2\repository\com\matson\gates\gates-cp-service-client\04.88.0-SNAPSHOT\gates-cp-service-client-04.88.0-SNAPSHOT.jar
-[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gates-cp\gates-cp-service-client\pom.xml to C:\Users\ssing\.m2\repository\com\matson\gates\gates-cp-service-client\04.88.0-SNAPSHOT\gates-cp-service-client-04.88.0-SNAPSHOT.pom
+[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gates-cp\gates-cp-service-client\target\gates-cp-service-client-04.90.0-SNAPSHOT.jar to C:\Users\ssing\.m2\repository\com\matson\gates\gates-cp-service-client\04.90.0-SNAPSHOT\gates-cp-service-client-04.90.0-SNAPSHOT.jar
+[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gates-cp\gates-cp-service-client\pom.xml to C:\Users\ssing\.m2\repository\com\matson\gates\gates-cp-service-client\04.90.0-SNAPSHOT\gates-cp-service-client-04.90.0-SNAPSHOT.pom
 [INFO]                                                                         
 [INFO] ------------------------------------------------------------------------
-[INFO] Building gates-cp-service 04.88.0-SNAPSHOT
+[INFO] Building gates-cp-service 04.90.0-SNAPSHOT
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ gates-cp-service ---
@@ -405,14 +396,14 @@
 [INFO] Tests are skipped.
 [INFO] 
 [INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ gates-cp-service ---
-[INFO] Building jar: C:\dev_workspace\gates_fresh\source\gates\gates-cp\gates-cp-service\target\gates-cp-service-04.88.0-SNAPSHOT.jar
+[INFO] Building jar: C:\dev_workspace\gates_fresh\source\gates\gates-cp\gates-cp-service\target\gates-cp-service-04.90.0-SNAPSHOT.jar
 [INFO] 
 [INFO] --- maven-install-plugin:2.4:install (default-install) @ gates-cp-service ---
-[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gates-cp\gates-cp-service\target\gates-cp-service-04.88.0-SNAPSHOT.jar to C:\Users\ssing\.m2\repository\com\matson\gates\gates-cp-service\04.88.0-SNAPSHOT\gates-cp-service-04.88.0-SNAPSHOT.jar
-[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gates-cp\gates-cp-service\pom.xml to C:\Users\ssing\.m2\repository\com\matson\gates\gates-cp-service\04.88.0-SNAPSHOT\gates-cp-service-04.88.0-SNAPSHOT.pom
+[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gates-cp\gates-cp-service\target\gates-cp-service-04.90.0-SNAPSHOT.jar to C:\Users\ssing\.m2\repository\com\matson\gates\gates-cp-service\04.90.0-SNAPSHOT\gates-cp-service-04.90.0-SNAPSHOT.jar
+[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gates-cp\gates-cp-service\pom.xml to C:\Users\ssing\.m2\repository\com\matson\gates\gates-cp-service\04.90.0-SNAPSHOT\gates-cp-service-04.90.0-SNAPSHOT.pom
 [INFO]                                                                         
 [INFO] ------------------------------------------------------------------------
-[INFO] Building gates-tm 04.88.0-SNAPSHOT
+[INFO] Building gates-tm 04.90.0-SNAPSHOT
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ gates-tm ---
@@ -422,10 +413,10 @@
 [INFO] --- aspectj-maven-plugin:1.2:test-compile (default) @ gates-tm ---
 [INFO] 
 [INFO] --- maven-install-plugin:2.4:install (default-install) @ gates-tm ---
-[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gates-tm\pom.xml to C:\Users\ssing\.m2\repository\com\matson\gates\gates-tm\04.88.0-SNAPSHOT\gates-tm-04.88.0-SNAPSHOT.pom
+[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gates-tm\pom.xml to C:\Users\ssing\.m2\repository\com\matson\gates\gates-tm\04.90.0-SNAPSHOT\gates-tm-04.90.0-SNAPSHOT.pom
 [INFO]                                                                         
 [INFO] ------------------------------------------------------------------------
-[INFO] Building gates-tm-service-client 04.88.0-SNAPSHOT
+[INFO] Building gates-tm-service-client 04.90.0-SNAPSHOT
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ gates-tm-service-client ---
@@ -457,14 +448,14 @@
 [INFO] Tests are skipped.
 [INFO] 
 [INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ gates-tm-service-client ---
-[INFO] Building jar: C:\dev_workspace\gates_fresh\source\gates\gates-tm\gates-tm-service-client\target\gates-tm-service-client-04.88.0-SNAPSHOT.jar
+[INFO] Building jar: C:\dev_workspace\gates_fresh\source\gates\gates-tm\gates-tm-service-client\target\gates-tm-service-client-04.90.0-SNAPSHOT.jar
 [INFO] 
 [INFO] --- maven-install-plugin:2.4:install (default-install) @ gates-tm-service-client ---
-[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gates-tm\gates-tm-service-client\target\gates-tm-service-client-04.88.0-SNAPSHOT.jar to C:\Users\ssing\.m2\repository\com\matson\gates\gates-tm-service-client\04.88.0-SNAPSHOT\gates-tm-service-client-04.88.0-SNAPSHOT.jar
-[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gates-tm\gates-tm-service-client\pom.xml to C:\Users\ssing\.m2\repository\com\matson\gates\gates-tm-service-client\04.88.0-SNAPSHOT\gates-tm-service-client-04.88.0-SNAPSHOT.pom
+[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gates-tm\gates-tm-service-client\target\gates-tm-service-client-04.90.0-SNAPSHOT.jar to C:\Users\ssing\.m2\repository\com\matson\gates\gates-tm-service-client\04.90.0-SNAPSHOT\gates-tm-service-client-04.90.0-SNAPSHOT.jar
+[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gates-tm\gates-tm-service-client\pom.xml to C:\Users\ssing\.m2\repository\com\matson\gates\gates-tm-service-client\04.90.0-SNAPSHOT\gates-tm-service-client-04.90.0-SNAPSHOT.pom
 [INFO]                                                                         
 [INFO] ------------------------------------------------------------------------
-[INFO] Building gates-service-parent 04.88.0-SNAPSHOT
+[INFO] Building gates-service-parent 04.90.0-SNAPSHOT
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ gates-service-parent ---
@@ -474,10 +465,10 @@
 [INFO] --- aspectj-maven-plugin:1.2:test-compile (default) @ gates-service-parent ---
 [INFO] 
 [INFO] --- maven-install-plugin:2.4:install (default-install) @ gates-service-parent ---
-[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gates-service-parent\pom.xml to C:\Users\ssing\.m2\repository\com\matson\gates\gates-service-parent\04.88.0-SNAPSHOT\gates-service-parent-04.88.0-SNAPSHOT.pom
+[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gates-service-parent\pom.xml to C:\Users\ssing\.m2\repository\com\matson\gates\gates-service-parent\04.90.0-SNAPSHOT\gates-service-parent-04.90.0-SNAPSHOT.pom
 [INFO]                                                                         
 [INFO] ------------------------------------------------------------------------
-[INFO] Building gates-re 04.88.0-SNAPSHOT
+[INFO] Building gates-re 04.90.0-SNAPSHOT
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ gates-re ---
@@ -487,10 +478,10 @@
 [INFO] --- aspectj-maven-plugin:1.2:test-compile (default) @ gates-re ---
 [INFO] 
 [INFO] --- maven-install-plugin:2.4:install (default-install) @ gates-re ---
-[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gates-re\pom.xml to C:\Users\ssing\.m2\repository\com\matson\gates\gates-re\04.88.0-SNAPSHOT\gates-re-04.88.0-SNAPSHOT.pom
+[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gates-re\pom.xml to C:\Users\ssing\.m2\repository\com\matson\gates\gates-re\04.90.0-SNAPSHOT\gates-re-04.90.0-SNAPSHOT.pom
 [INFO]                                                                         
 [INFO] ------------------------------------------------------------------------
-[INFO] Building Gates Re Service Client 04.88.0-SNAPSHOT
+[INFO] Building Gates Re Service Client 04.90.0-SNAPSHOT
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ gates-re-service-client ---
@@ -522,14 +513,14 @@
 [INFO] Tests are skipped.
 [INFO] 
 [INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ gates-re-service-client ---
-[INFO] Building jar: C:\dev_workspace\gates_fresh\source\gates\gates-re\gates-re-service-client\target\gates-re-service-client-04.88.0-SNAPSHOT.jar
+[INFO] Building jar: C:\dev_workspace\gates_fresh\source\gates\gates-re\gates-re-service-client\target\gates-re-service-client-04.90.0-SNAPSHOT.jar
 [INFO] 
 [INFO] --- maven-install-plugin:2.4:install (default-install) @ gates-re-service-client ---
-[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gates-re\gates-re-service-client\target\gates-re-service-client-04.88.0-SNAPSHOT.jar to C:\Users\ssing\.m2\repository\com\matson\gates\gates-re-service-client\04.88.0-SNAPSHOT\gates-re-service-client-04.88.0-SNAPSHOT.jar
-[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gates-re\gates-re-service-client\pom.xml to C:\Users\ssing\.m2\repository\com\matson\gates\gates-re-service-client\04.88.0-SNAPSHOT\gates-re-service-client-04.88.0-SNAPSHOT.pom
+[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gates-re\gates-re-service-client\target\gates-re-service-client-04.90.0-SNAPSHOT.jar to C:\Users\ssing\.m2\repository\com\matson\gates\gates-re-service-client\04.90.0-SNAPSHOT\gates-re-service-client-04.90.0-SNAPSHOT.jar
+[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gates-re\gates-re-service-client\pom.xml to C:\Users\ssing\.m2\repository\com\matson\gates\gates-re-service-client\04.90.0-SNAPSHOT\gates-re-service-client-04.90.0-SNAPSHOT.pom
 [INFO]                                                                         
 [INFO] ------------------------------------------------------------------------
-[INFO] Building gates-qt 04.88.0-SNAPSHOT
+[INFO] Building gates-qt 04.90.0-SNAPSHOT
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ gates-qt ---
@@ -539,10 +530,10 @@
 [INFO] --- aspectj-maven-plugin:1.2:test-compile (default) @ gates-qt ---
 [INFO] 
 [INFO] --- maven-install-plugin:2.4:install (default-install) @ gates-qt ---
-[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gates-qt\pom.xml to C:\Users\ssing\.m2\repository\com\matson\gates\gates-qt\04.88.0-SNAPSHOT\gates-qt-04.88.0-SNAPSHOT.pom
+[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gates-qt\pom.xml to C:\Users\ssing\.m2\repository\com\matson\gates\gates-qt\04.90.0-SNAPSHOT\gates-qt-04.90.0-SNAPSHOT.pom
 [INFO]                                                                         
 [INFO] ------------------------------------------------------------------------
-[INFO] Building gates-qt-service-client 04.88.0-SNAPSHOT
+[INFO] Building gates-qt-service-client 04.90.0-SNAPSHOT
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ gates-qt-service-client ---
@@ -574,14 +565,14 @@
 [INFO] Tests are skipped.
 [INFO] 
 [INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ gates-qt-service-client ---
-[INFO] Building jar: C:\dev_workspace\gates_fresh\source\gates\gates-qt\gates-qt-service-client\target\gates-qt-service-client-04.88.0-SNAPSHOT.jar
+[INFO] Building jar: C:\dev_workspace\gates_fresh\source\gates\gates-qt\gates-qt-service-client\target\gates-qt-service-client-04.90.0-SNAPSHOT.jar
 [INFO] 
 [INFO] --- maven-install-plugin:2.4:install (default-install) @ gates-qt-service-client ---
-[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gates-qt\gates-qt-service-client\target\gates-qt-service-client-04.88.0-SNAPSHOT.jar to C:\Users\ssing\.m2\repository\com\matson\gates\gates-qt-service-client\04.88.0-SNAPSHOT\gates-qt-service-client-04.88.0-SNAPSHOT.jar
-[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gates-qt\gates-qt-service-client\pom.xml to C:\Users\ssing\.m2\repository\com\matson\gates\gates-qt-service-client\04.88.0-SNAPSHOT\gates-qt-service-client-04.88.0-SNAPSHOT.pom
+[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gates-qt\gates-qt-service-client\target\gates-qt-service-client-04.90.0-SNAPSHOT.jar to C:\Users\ssing\.m2\repository\com\matson\gates\gates-qt-service-client\04.90.0-SNAPSHOT\gates-qt-service-client-04.90.0-SNAPSHOT.jar
+[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gates-qt\gates-qt-service-client\pom.xml to C:\Users\ssing\.m2\repository\com\matson\gates\gates-qt-service-client\04.90.0-SNAPSHOT\gates-qt-service-client-04.90.0-SNAPSHOT.pom
 [INFO]                                                                         
 [INFO] ------------------------------------------------------------------------
-[INFO] Building gates-tm-service 04.88.0-SNAPSHOT
+[INFO] Building gates-tm-service 04.90.0-SNAPSHOT
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ gates-tm-service ---
@@ -627,14 +618,14 @@
 [INFO] Tests are skipped.
 [INFO] 
 [INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ gates-tm-service ---
-[INFO] Building jar: C:\dev_workspace\gates_fresh\source\gates\gates-tm\gates-tm-service\target\gates-tm-service-04.88.0-SNAPSHOT.jar
+[INFO] Building jar: C:\dev_workspace\gates_fresh\source\gates\gates-tm\gates-tm-service\target\gates-tm-service-04.90.0-SNAPSHOT.jar
 [INFO] 
 [INFO] --- maven-install-plugin:2.4:install (default-install) @ gates-tm-service ---
-[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gates-tm\gates-tm-service\target\gates-tm-service-04.88.0-SNAPSHOT.jar to C:\Users\ssing\.m2\repository\com\matson\gates\gates-tm-service\04.88.0-SNAPSHOT\gates-tm-service-04.88.0-SNAPSHOT.jar
-[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gates-tm\gates-tm-service\pom.xml to C:\Users\ssing\.m2\repository\com\matson\gates\gates-tm-service\04.88.0-SNAPSHOT\gates-tm-service-04.88.0-SNAPSHOT.pom
+[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gates-tm\gates-tm-service\target\gates-tm-service-04.90.0-SNAPSHOT.jar to C:\Users\ssing\.m2\repository\com\matson\gates\gates-tm-service\04.90.0-SNAPSHOT\gates-tm-service-04.90.0-SNAPSHOT.jar
+[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gates-tm\gates-tm-service\pom.xml to C:\Users\ssing\.m2\repository\com\matson\gates\gates-tm-service\04.90.0-SNAPSHOT\gates-tm-service-04.90.0-SNAPSHOT.pom
 [INFO]                                                                         
 [INFO] ------------------------------------------------------------------------
-[INFO] Building gates-qt-service 04.88.0-SNAPSHOT
+[INFO] Building gates-qt-service 04.90.0-SNAPSHOT
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ gates-qt-service ---
@@ -677,7 +668,7 @@
 [INFO] Tests are skipped.
 [INFO] 
 [INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ gates-qt-service ---
-[INFO] Building jar: C:\dev_workspace\gates_fresh\source\gates\gates-qt\gates-qt-service\target\gates-qt-service-04.88.0-SNAPSHOT.jar
+[INFO] Building jar: C:\dev_workspace\gates_fresh\source\gates\gates-qt\gates-qt-service\target\gates-qt-service-04.90.0-SNAPSHOT.jar
 [INFO] 
 [INFO] --- maven-antrun-plugin:1.3:run (default) @ gates-qt-service ---
 [INFO] Executing tasks
@@ -687,11 +678,11 @@ jar:
 [INFO] Executed tasks
 [INFO] 
 [INFO] --- maven-install-plugin:2.4:install (default-install) @ gates-qt-service ---
-[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gates-qt\gates-qt-service\target\gates-qt-service-04.88.0-SNAPSHOT.jar to C:\Users\ssing\.m2\repository\com\matson\gates\gates-qt-service\04.88.0-SNAPSHOT\gates-qt-service-04.88.0-SNAPSHOT.jar
-[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gates-qt\gates-qt-service\pom.xml to C:\Users\ssing\.m2\repository\com\matson\gates\gates-qt-service\04.88.0-SNAPSHOT\gates-qt-service-04.88.0-SNAPSHOT.pom
+[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gates-qt\gates-qt-service\target\gates-qt-service-04.90.0-SNAPSHOT.jar to C:\Users\ssing\.m2\repository\com\matson\gates\gates-qt-service\04.90.0-SNAPSHOT\gates-qt-service-04.90.0-SNAPSHOT.jar
+[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gates-qt\gates-qt-service\pom.xml to C:\Users\ssing\.m2\repository\com\matson\gates\gates-qt-service\04.90.0-SNAPSHOT\gates-qt-service-04.90.0-SNAPSHOT.pom
 [INFO]                                                                         
 [INFO] ------------------------------------------------------------------------
-[INFO] Building gates-edi 04.88.0-SNAPSHOT
+[INFO] Building gates-edi 04.90.0-SNAPSHOT
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ gates-edi ---
@@ -714,14 +705,14 @@ jar:
 [INFO] Tests are skipped.
 [INFO] 
 [INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ gates-edi ---
-[INFO] Building jar: C:\dev_workspace\gates_fresh\source\gates\gates-edi\target\gates-edi-04.88.0-SNAPSHOT.jar
+[INFO] Building jar: C:\dev_workspace\gates_fresh\source\gates\gates-edi\target\gates-edi-04.90.0-SNAPSHOT.jar
 [INFO] 
 [INFO] --- maven-install-plugin:2.4:install (default-install) @ gates-edi ---
-[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gates-edi\target\gates-edi-04.88.0-SNAPSHOT.jar to C:\Users\ssing\.m2\repository\com\matson\gates\gates-edi\04.88.0-SNAPSHOT\gates-edi-04.88.0-SNAPSHOT.jar
-[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gates-edi\pom.xml to C:\Users\ssing\.m2\repository\com\matson\gates\gates-edi\04.88.0-SNAPSHOT\gates-edi-04.88.0-SNAPSHOT.pom
+[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gates-edi\target\gates-edi-04.90.0-SNAPSHOT.jar to C:\Users\ssing\.m2\repository\com\matson\gates\gates-edi\04.90.0-SNAPSHOT\gates-edi-04.90.0-SNAPSHOT.jar
+[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gates-edi\pom.xml to C:\Users\ssing\.m2\repository\com\matson\gates\gates-edi\04.90.0-SNAPSHOT\gates-edi-04.90.0-SNAPSHOT.pom
 [INFO]                                                                         
 [INFO] ------------------------------------------------------------------------
-[INFO] Building gates-bk 04.88.0-SNAPSHOT
+[INFO] Building gates-bk 04.90.0-SNAPSHOT
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ gates-bk ---
@@ -731,10 +722,10 @@ jar:
 [INFO] --- aspectj-maven-plugin:1.2:test-compile (default) @ gates-bk ---
 [INFO] 
 [INFO] --- maven-install-plugin:2.4:install (default-install) @ gates-bk ---
-[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gates-bk\pom.xml to C:\Users\ssing\.m2\repository\com\matson\gates\gates-bk\04.88.0-SNAPSHOT\gates-bk-04.88.0-SNAPSHOT.pom
+[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gates-bk\pom.xml to C:\Users\ssing\.m2\repository\com\matson\gates\gates-bk\04.90.0-SNAPSHOT\gates-bk-04.90.0-SNAPSHOT.pom
 [INFO]                                                                         
 [INFO] ------------------------------------------------------------------------
-[INFO] Building gates-bk-service-client 04.88.0-SNAPSHOT
+[INFO] Building gates-bk-service-client 04.90.0-SNAPSHOT
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ gates-bk-service-client ---
@@ -766,14 +757,14 @@ jar:
 [INFO] Tests are skipped.
 [INFO] 
 [INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ gates-bk-service-client ---
-[INFO] Building jar: C:\dev_workspace\gates_fresh\source\gates\gates-bk\gates-bk-service-client\target\gates-bk-service-client-04.88.0-SNAPSHOT.jar
+[INFO] Building jar: C:\dev_workspace\gates_fresh\source\gates\gates-bk\gates-bk-service-client\target\gates-bk-service-client-04.90.0-SNAPSHOT.jar
 [INFO] 
 [INFO] --- maven-install-plugin:2.4:install (default-install) @ gates-bk-service-client ---
-[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gates-bk\gates-bk-service-client\target\gates-bk-service-client-04.88.0-SNAPSHOT.jar to C:\Users\ssing\.m2\repository\com\matson\gates\gates-bk-service-client\04.88.0-SNAPSHOT\gates-bk-service-client-04.88.0-SNAPSHOT.jar
-[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gates-bk\gates-bk-service-client\pom.xml to C:\Users\ssing\.m2\repository\com\matson\gates\gates-bk-service-client\04.88.0-SNAPSHOT\gates-bk-service-client-04.88.0-SNAPSHOT.pom
+[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gates-bk\gates-bk-service-client\target\gates-bk-service-client-04.90.0-SNAPSHOT.jar to C:\Users\ssing\.m2\repository\com\matson\gates\gates-bk-service-client\04.90.0-SNAPSHOT\gates-bk-service-client-04.90.0-SNAPSHOT.jar
+[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gates-bk\gates-bk-service-client\pom.xml to C:\Users\ssing\.m2\repository\com\matson\gates\gates-bk-service-client\04.90.0-SNAPSHOT\gates-bk-service-client-04.90.0-SNAPSHOT.pom
 [INFO]                                                                         
 [INFO] ------------------------------------------------------------------------
-[INFO] Building gates-sp 04.88.0-SNAPSHOT
+[INFO] Building gates-sp 04.90.0-SNAPSHOT
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ gates-sp ---
@@ -783,10 +774,10 @@ jar:
 [INFO] --- aspectj-maven-plugin:1.2:test-compile (default) @ gates-sp ---
 [INFO] 
 [INFO] --- maven-install-plugin:2.4:install (default-install) @ gates-sp ---
-[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gates-sp\pom.xml to C:\Users\ssing\.m2\repository\com\matson\gates\gates-sp\04.88.0-SNAPSHOT\gates-sp-04.88.0-SNAPSHOT.pom
+[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gates-sp\pom.xml to C:\Users\ssing\.m2\repository\com\matson\gates\gates-sp\04.90.0-SNAPSHOT\gates-sp-04.90.0-SNAPSHOT.pom
 [INFO]                                                                         
 [INFO] ------------------------------------------------------------------------
-[INFO] Building gates-sp-service-client 04.88.0-SNAPSHOT
+[INFO] Building gates-sp-service-client 04.90.0-SNAPSHOT
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ gates-sp-service-client ---
@@ -818,14 +809,14 @@ jar:
 [INFO] Tests are skipped.
 [INFO] 
 [INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ gates-sp-service-client ---
-[INFO] Building jar: C:\dev_workspace\gates_fresh\source\gates\gates-sp\gates-sp-service-client\target\gates-sp-service-client-04.88.0-SNAPSHOT.jar
+[INFO] Building jar: C:\dev_workspace\gates_fresh\source\gates\gates-sp\gates-sp-service-client\target\gates-sp-service-client-04.90.0-SNAPSHOT.jar
 [INFO] 
 [INFO] --- maven-install-plugin:2.4:install (default-install) @ gates-sp-service-client ---
-[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gates-sp\gates-sp-service-client\target\gates-sp-service-client-04.88.0-SNAPSHOT.jar to C:\Users\ssing\.m2\repository\com\matson\gates\gates-sp-service-client\04.88.0-SNAPSHOT\gates-sp-service-client-04.88.0-SNAPSHOT.jar
-[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gates-sp\gates-sp-service-client\pom.xml to C:\Users\ssing\.m2\repository\com\matson\gates\gates-sp-service-client\04.88.0-SNAPSHOT\gates-sp-service-client-04.88.0-SNAPSHOT.pom
+[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gates-sp\gates-sp-service-client\target\gates-sp-service-client-04.90.0-SNAPSHOT.jar to C:\Users\ssing\.m2\repository\com\matson\gates\gates-sp-service-client\04.90.0-SNAPSHOT\gates-sp-service-client-04.90.0-SNAPSHOT.jar
+[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gates-sp\gates-sp-service-client\pom.xml to C:\Users\ssing\.m2\repository\com\matson\gates\gates-sp-service-client\04.90.0-SNAPSHOT\gates-sp-service-client-04.90.0-SNAPSHOT.pom
 [INFO]                                                                         
 [INFO] ------------------------------------------------------------------------
-[INFO] Building gates-re-service 04.88.0-SNAPSHOT
+[INFO] Building gates-re-service 04.90.0-SNAPSHOT
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ gates-re-service ---
@@ -873,14 +864,14 @@ jar:
 [INFO] Tests are skipped.
 [INFO] 
 [INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ gates-re-service ---
-[INFO] Building jar: C:\dev_workspace\gates_fresh\source\gates\gates-re\gates-re-service\target\gates-re-service-04.88.0-SNAPSHOT.jar
+[INFO] Building jar: C:\dev_workspace\gates_fresh\source\gates\gates-re\gates-re-service\target\gates-re-service-04.90.0-SNAPSHOT.jar
 [INFO] 
 [INFO] --- maven-install-plugin:2.4:install (default-install) @ gates-re-service ---
-[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gates-re\gates-re-service\target\gates-re-service-04.88.0-SNAPSHOT.jar to C:\Users\ssing\.m2\repository\com\matson\gates\gates-re-service\04.88.0-SNAPSHOT\gates-re-service-04.88.0-SNAPSHOT.jar
-[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gates-re\gates-re-service\pom.xml to C:\Users\ssing\.m2\repository\com\matson\gates\gates-re-service\04.88.0-SNAPSHOT\gates-re-service-04.88.0-SNAPSHOT.pom
+[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gates-re\gates-re-service\target\gates-re-service-04.90.0-SNAPSHOT.jar to C:\Users\ssing\.m2\repository\com\matson\gates\gates-re-service\04.90.0-SNAPSHOT\gates-re-service-04.90.0-SNAPSHOT.jar
+[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gates-re\gates-re-service\pom.xml to C:\Users\ssing\.m2\repository\com\matson\gates\gates-re-service\04.90.0-SNAPSHOT\gates-re-service-04.90.0-SNAPSHOT.pom
 [INFO]                                                                         
 [INFO] ------------------------------------------------------------------------
-[INFO] Building gates-bk-service 04.88.0-SNAPSHOT
+[INFO] Building gates-bk-service 04.90.0-SNAPSHOT
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ gates-bk-service ---
@@ -924,7 +915,7 @@ jar:
 [INFO] Tests are skipped.
 [INFO] 
 [INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ gates-bk-service ---
-[INFO] Building jar: C:\dev_workspace\gates_fresh\source\gates\gates-bk\gates-bk-service\target\gates-bk-service-04.88.0-SNAPSHOT.jar
+[INFO] Building jar: C:\dev_workspace\gates_fresh\source\gates\gates-bk\gates-bk-service\target\gates-bk-service-04.90.0-SNAPSHOT.jar
 [INFO] 
 [INFO] --- maven-antrun-plugin:1.3:run (default) @ gates-bk-service ---
 [INFO] Executing tasks
@@ -934,11 +925,11 @@ jar:
 [INFO] Executed tasks
 [INFO] 
 [INFO] --- maven-install-plugin:2.4:install (default-install) @ gates-bk-service ---
-[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gates-bk\gates-bk-service\target\gates-bk-service-04.88.0-SNAPSHOT.jar to C:\Users\ssing\.m2\repository\com\matson\gates\gates-bk-service\04.88.0-SNAPSHOT\gates-bk-service-04.88.0-SNAPSHOT.jar
-[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gates-bk\gates-bk-service\pom.xml to C:\Users\ssing\.m2\repository\com\matson\gates\gates-bk-service\04.88.0-SNAPSHOT\gates-bk-service-04.88.0-SNAPSHOT.pom
+[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gates-bk\gates-bk-service\target\gates-bk-service-04.90.0-SNAPSHOT.jar to C:\Users\ssing\.m2\repository\com\matson\gates\gates-bk-service\04.90.0-SNAPSHOT\gates-bk-service-04.90.0-SNAPSHOT.jar
+[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gates-bk\gates-bk-service\pom.xml to C:\Users\ssing\.m2\repository\com\matson\gates\gates-bk-service\04.90.0-SNAPSHOT\gates-bk-service-04.90.0-SNAPSHOT.pom
 [INFO]                                                                         
 [INFO] ------------------------------------------------------------------------
-[INFO] Building gates-integration 04.88.0-SNAPSHOT
+[INFO] Building gates-integration 04.90.0-SNAPSHOT
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ gates-integration ---
@@ -948,10 +939,10 @@ jar:
 [INFO] --- aspectj-maven-plugin:1.2:test-compile (default) @ gates-integration ---
 [INFO] 
 [INFO] --- maven-install-plugin:2.4:install (default-install) @ gates-integration ---
-[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gates-integration\pom.xml to C:\Users\ssing\.m2\repository\com\matson\gates\integration\gates-integration\04.88.0-SNAPSHOT\gates-integration-04.88.0-SNAPSHOT.pom
+[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gates-integration\pom.xml to C:\Users\ssing\.m2\repository\com\matson\gates\integration\gates-integration\04.90.0-SNAPSHOT\gates-integration-04.90.0-SNAPSHOT.pom
 [INFO]                                                                         
 [INFO] ------------------------------------------------------------------------
-[INFO] Building gates-integration-core 04.88.0-SNAPSHOT
+[INFO] Building gates-integration-core 04.90.0-SNAPSHOT
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ gates-integration-core ---
@@ -983,14 +974,14 @@ jar:
 [INFO] Tests are skipped.
 [INFO] 
 [INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ gates-integration-core ---
-[INFO] Building jar: C:\dev_workspace\gates_fresh\source\gates\gates-integration\gates-integration-core\target\gates-integration-core-04.88.0-SNAPSHOT.jar
+[INFO] Building jar: C:\dev_workspace\gates_fresh\source\gates\gates-integration\gates-integration-core\target\gates-integration-core-04.90.0-SNAPSHOT.jar
 [INFO] 
 [INFO] --- maven-install-plugin:2.4:install (default-install) @ gates-integration-core ---
-[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gates-integration\gates-integration-core\target\gates-integration-core-04.88.0-SNAPSHOT.jar to C:\Users\ssing\.m2\repository\com\matson\gates\integration\gates-integration-core\04.88.0-SNAPSHOT\gates-integration-core-04.88.0-SNAPSHOT.jar
-[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gates-integration\gates-integration-core\pom.xml to C:\Users\ssing\.m2\repository\com\matson\gates\integration\gates-integration-core\04.88.0-SNAPSHOT\gates-integration-core-04.88.0-SNAPSHOT.pom
+[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gates-integration\gates-integration-core\target\gates-integration-core-04.90.0-SNAPSHOT.jar to C:\Users\ssing\.m2\repository\com\matson\gates\integration\gates-integration-core\04.90.0-SNAPSHOT\gates-integration-core-04.90.0-SNAPSHOT.jar
+[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gates-integration\gates-integration-core\pom.xml to C:\Users\ssing\.m2\repository\com\matson\gates\integration\gates-integration-core\04.90.0-SNAPSHOT\gates-integration-core-04.90.0-SNAPSHOT.pom
 [INFO]                                                                         
 [INFO] ------------------------------------------------------------------------
-[INFO] Building gates-bl 04.88.0-SNAPSHOT
+[INFO] Building gates-bl 04.90.0-SNAPSHOT
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ gates-bl ---
@@ -1000,10 +991,10 @@ jar:
 [INFO] --- aspectj-maven-plugin:1.2:test-compile (default) @ gates-bl ---
 [INFO] 
 [INFO] --- maven-install-plugin:2.4:install (default-install) @ gates-bl ---
-[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gates-bl\pom.xml to C:\Users\ssing\.m2\repository\com\matson\gates\gates-bl\04.88.0-SNAPSHOT\gates-bl-04.88.0-SNAPSHOT.pom
+[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gates-bl\pom.xml to C:\Users\ssing\.m2\repository\com\matson\gates\gates-bl\04.90.0-SNAPSHOT\gates-bl-04.90.0-SNAPSHOT.pom
 [INFO]                                                                         
 [INFO] ------------------------------------------------------------------------
-[INFO] Building gates-bl-service-client 04.88.0-SNAPSHOT
+[INFO] Building gates-bl-service-client 04.90.0-SNAPSHOT
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ gates-bl-service-client ---
@@ -1035,14 +1026,14 @@ jar:
 [INFO] Tests are skipped.
 [INFO] 
 [INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ gates-bl-service-client ---
-[INFO] Building jar: C:\dev_workspace\gates_fresh\source\gates\gates-bl\gates-bl-service-client\target\gates-bl-service-client-04.88.0-SNAPSHOT.jar
+[INFO] Building jar: C:\dev_workspace\gates_fresh\source\gates\gates-bl\gates-bl-service-client\target\gates-bl-service-client-04.90.0-SNAPSHOT.jar
 [INFO] 
 [INFO] --- maven-install-plugin:2.4:install (default-install) @ gates-bl-service-client ---
-[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gates-bl\gates-bl-service-client\target\gates-bl-service-client-04.88.0-SNAPSHOT.jar to C:\Users\ssing\.m2\repository\com\matson\gates\gates-bl-service-client\04.88.0-SNAPSHOT\gates-bl-service-client-04.88.0-SNAPSHOT.jar
-[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gates-bl\gates-bl-service-client\pom.xml to C:\Users\ssing\.m2\repository\com\matson\gates\gates-bl-service-client\04.88.0-SNAPSHOT\gates-bl-service-client-04.88.0-SNAPSHOT.pom
+[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gates-bl\gates-bl-service-client\target\gates-bl-service-client-04.90.0-SNAPSHOT.jar to C:\Users\ssing\.m2\repository\com\matson\gates\gates-bl-service-client\04.90.0-SNAPSHOT\gates-bl-service-client-04.90.0-SNAPSHOT.jar
+[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gates-bl\gates-bl-service-client\pom.xml to C:\Users\ssing\.m2\repository\com\matson\gates\gates-bl-service-client\04.90.0-SNAPSHOT\gates-bl-service-client-04.90.0-SNAPSHOT.pom
 [INFO]                                                                         
 [INFO] ------------------------------------------------------------------------
-[INFO] Building gates-sp-service 04.88.0-SNAPSHOT
+[INFO] Building gates-sp-service 04.90.0-SNAPSHOT
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ gates-sp-service ---
@@ -1076,7 +1067,7 @@ jar:
 [INFO] Tests are skipped.
 [INFO] 
 [INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ gates-sp-service ---
-[INFO] Building jar: C:\dev_workspace\gates_fresh\source\gates\gates-sp\gates-sp-service\target\gates-sp-service-04.88.0-SNAPSHOT.jar
+[INFO] Building jar: C:\dev_workspace\gates_fresh\source\gates\gates-sp\gates-sp-service\target\gates-sp-service-04.90.0-SNAPSHOT.jar
 [INFO] 
 [INFO] --- maven-antrun-plugin:1.3:run (default) @ gates-sp-service ---
 [INFO] Executing tasks
@@ -1086,11 +1077,11 @@ jar:
 [INFO] Executed tasks
 [INFO] 
 [INFO] --- maven-install-plugin:2.4:install (default-install) @ gates-sp-service ---
-[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gates-sp\gates-sp-service\target\gates-sp-service-04.88.0-SNAPSHOT.jar to C:\Users\ssing\.m2\repository\com\matson\gates\gates-sp-service\04.88.0-SNAPSHOT\gates-sp-service-04.88.0-SNAPSHOT.jar
-[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gates-sp\gates-sp-service\pom.xml to C:\Users\ssing\.m2\repository\com\matson\gates\gates-sp-service\04.88.0-SNAPSHOT\gates-sp-service-04.88.0-SNAPSHOT.pom
+[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gates-sp\gates-sp-service\target\gates-sp-service-04.90.0-SNAPSHOT.jar to C:\Users\ssing\.m2\repository\com\matson\gates\gates-sp-service\04.90.0-SNAPSHOT\gates-sp-service-04.90.0-SNAPSHOT.jar
+[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gates-sp\gates-sp-service\pom.xml to C:\Users\ssing\.m2\repository\com\matson\gates\gates-sp-service\04.90.0-SNAPSHOT\gates-sp-service-04.90.0-SNAPSHOT.pom
 [INFO]                                                                         
 [INFO] ------------------------------------------------------------------------
-[INFO] Building gates-bl-service 04.88.0-SNAPSHOT
+[INFO] Building gates-bl-service 04.90.0-SNAPSHOT
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ gates-bl-service ---
@@ -1134,7 +1125,7 @@ jar:
 [INFO] Tests are skipped.
 [INFO] 
 [INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ gates-bl-service ---
-[INFO] Building jar: C:\dev_workspace\gates_fresh\source\gates\gates-bl\gates-bl-service\target\gates-bl-service-04.88.0-SNAPSHOT.jar
+[INFO] Building jar: C:\dev_workspace\gates_fresh\source\gates\gates-bl\gates-bl-service\target\gates-bl-service-04.90.0-SNAPSHOT.jar
 [INFO] 
 [INFO] --- maven-antrun-plugin:1.3:run (default) @ gates-bl-service ---
 [INFO] Executing tasks
@@ -1144,11 +1135,11 @@ jar:
 [INFO] Executed tasks
 [INFO] 
 [INFO] --- maven-install-plugin:2.4:install (default-install) @ gates-bl-service ---
-[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gates-bl\gates-bl-service\target\gates-bl-service-04.88.0-SNAPSHOT.jar to C:\Users\ssing\.m2\repository\com\matson\gates\gates-bl-service\04.88.0-SNAPSHOT\gates-bl-service-04.88.0-SNAPSHOT.jar
-[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gates-bl\gates-bl-service\pom.xml to C:\Users\ssing\.m2\repository\com\matson\gates\gates-bl-service\04.88.0-SNAPSHOT\gates-bl-service-04.88.0-SNAPSHOT.pom
+[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gates-bl\gates-bl-service\target\gates-bl-service-04.90.0-SNAPSHOT.jar to C:\Users\ssing\.m2\repository\com\matson\gates\gates-bl-service\04.90.0-SNAPSHOT\gates-bl-service-04.90.0-SNAPSHOT.jar
+[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gates-bl\gates-bl-service\pom.xml to C:\Users\ssing\.m2\repository\com\matson\gates\gates-bl-service\04.90.0-SNAPSHOT\gates-bl-service-04.90.0-SNAPSHOT.pom
 [INFO]                                                                         
 [INFO] ------------------------------------------------------------------------
-[INFO] Building GATES Integration Pipelines Project 04.88.0-SNAPSHOT
+[INFO] Building GATES Integration Pipelines Project 04.90.0-SNAPSHOT
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ gates-integration-pipelines ---
@@ -1189,14 +1180,14 @@ jar:
 [INFO] Tests are skipped.
 [INFO] 
 [INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ gates-integration-pipelines ---
-[INFO] Building jar: C:\dev_workspace\gates_fresh\source\gates\gates-integration\gates-integration-pipelines\target\gates-integration-pipelines-04.88.0-SNAPSHOT.jar
+[INFO] Building jar: C:\dev_workspace\gates_fresh\source\gates\gates-integration\gates-integration-pipelines\target\gates-integration-pipelines-04.90.0-SNAPSHOT.jar
 [INFO] 
 [INFO] --- maven-install-plugin:2.4:install (default-install) @ gates-integration-pipelines ---
-[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gates-integration\gates-integration-pipelines\target\gates-integration-pipelines-04.88.0-SNAPSHOT.jar to C:\Users\ssing\.m2\repository\com\matson\gates\integration\gates-integration-pipelines\04.88.0-SNAPSHOT\gates-integration-pipelines-04.88.0-SNAPSHOT.jar
-[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gates-integration\gates-integration-pipelines\pom.xml to C:\Users\ssing\.m2\repository\com\matson\gates\integration\gates-integration-pipelines\04.88.0-SNAPSHOT\gates-integration-pipelines-04.88.0-SNAPSHOT.pom
+[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gates-integration\gates-integration-pipelines\target\gates-integration-pipelines-04.90.0-SNAPSHOT.jar to C:\Users\ssing\.m2\repository\com\matson\gates\integration\gates-integration-pipelines\04.90.0-SNAPSHOT\gates-integration-pipelines-04.90.0-SNAPSHOT.jar
+[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gates-integration\gates-integration-pipelines\pom.xml to C:\Users\ssing\.m2\repository\com\matson\gates\integration\gates-integration-pipelines\04.90.0-SNAPSHOT\gates-integration-pipelines-04.90.0-SNAPSHOT.pom
 [INFO]                                                                         
 [INFO] ------------------------------------------------------------------------
-[INFO] Building GATES Integration Engine Project 04.88.0-SNAPSHOT
+[INFO] Building GATES Integration Engine Project 04.90.0-SNAPSHOT
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ gates-integration-engine ---
@@ -1228,14 +1219,14 @@ jar:
 [INFO] Tests are skipped.
 [INFO] 
 [INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ gates-integration-engine ---
-[INFO] Building jar: C:\dev_workspace\gates_fresh\source\gates\gates-integration\gates-integration-engine\target\gates-integration-engine-04.88.0-SNAPSHOT.jar
+[INFO] Building jar: C:\dev_workspace\gates_fresh\source\gates\gates-integration\gates-integration-engine\target\gates-integration-engine-04.90.0-SNAPSHOT.jar
 [INFO] 
 [INFO] --- maven-install-plugin:2.4:install (default-install) @ gates-integration-engine ---
-[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gates-integration\gates-integration-engine\target\gates-integration-engine-04.88.0-SNAPSHOT.jar to C:\Users\ssing\.m2\repository\com\matson\gates\integration\gates-integration-engine\04.88.0-SNAPSHOT\gates-integration-engine-04.88.0-SNAPSHOT.jar
-[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gates-integration\gates-integration-engine\pom.xml to C:\Users\ssing\.m2\repository\com\matson\gates\integration\gates-integration-engine\04.88.0-SNAPSHOT\gates-integration-engine-04.88.0-SNAPSHOT.pom
+[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gates-integration\gates-integration-engine\target\gates-integration-engine-04.90.0-SNAPSHOT.jar to C:\Users\ssing\.m2\repository\com\matson\gates\integration\gates-integration-engine\04.90.0-SNAPSHOT\gates-integration-engine-04.90.0-SNAPSHOT.jar
+[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gates-integration\gates-integration-engine\pom.xml to C:\Users\ssing\.m2\repository\com\matson\gates\integration\gates-integration-engine\04.90.0-SNAPSHOT\gates-integration-engine-04.90.0-SNAPSHOT.pom
 [INFO]                                                                         
 [INFO] ------------------------------------------------------------------------
-[INFO] Building gates-interactive-web 04.88.0-SNAPSHOT
+[INFO] Building gates-interactive-web 04.90.0-SNAPSHOT
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ gates-interactive-web ---
@@ -1294,24 +1285,24 @@ jar:
 [INFO] 
 [INFO] --- maven-war-plugin:2.2:war (default-war) @ gates-interactive-web ---
 [INFO] Packaging webapp
-[INFO] Assembling webapp [gates-interactive-web] in [C:\dev_workspace\gates_fresh\source\gates\gates-interactive-web\target\gates-interactive-web-04.88.0-SNAPSHOT]
+[INFO] Assembling webapp [gates-interactive-web] in [C:\dev_workspace\gates_fresh\source\gates\gates-interactive-web\target\gates-interactive-web-04.90.0-SNAPSHOT]
 [INFO] Processing war project
 [INFO] Copying webapp resources [C:\dev_workspace\gates_fresh\source\gates\gates-interactive-web\src\main\webapp]
-[INFO] Webapp assembled in [121127 msecs]
-[INFO] Building war: C:\dev_workspace\gates_fresh\source\gates\gates-interactive-web\target\gates-interactive-web-04.88.0-SNAPSHOT.war
+[INFO] Webapp assembled in [201930 msecs]
+[INFO] Building war: C:\dev_workspace\gates_fresh\source\gates\gates-interactive-web\target\gates-interactive-web-04.90.0-SNAPSHOT.war
 [INFO] WEB-INF\web.xml already added, skipping
 [INFO] 
 [INFO] --- maven-assembly-plugin:2.2.1:single (make-assembly) @ gates-interactive-web ---
 [INFO] Reading assembly descriptor: assemble-static-web-content.xml
-[INFO] Building zip: C:\dev_workspace\gates_fresh\source\gates\gates-interactive-web\target\gates-interactive-web-04.88.0-SNAPSHOT-static-web-content.zip
+[INFO] Building zip: C:\dev_workspace\gates_fresh\source\gates\gates-interactive-web\target\gates-interactive-web-04.90.0-SNAPSHOT-static-web-content.zip
 [INFO] 
 [INFO] --- maven-install-plugin:2.4:install (default-install) @ gates-interactive-web ---
-[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gates-interactive-web\target\gates-interactive-web-04.88.0-SNAPSHOT.war to C:\Users\ssing\.m2\repository\com\matson\gates\gates-interactive-web\04.88.0-SNAPSHOT\gates-interactive-web-04.88.0-SNAPSHOT.war
-[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gates-interactive-web\pom.xml to C:\Users\ssing\.m2\repository\com\matson\gates\gates-interactive-web\04.88.0-SNAPSHOT\gates-interactive-web-04.88.0-SNAPSHOT.pom
-[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gates-interactive-web\target\gates-interactive-web-04.88.0-SNAPSHOT-static-web-content.zip to C:\Users\ssing\.m2\repository\com\matson\gates\gates-interactive-web\04.88.0-SNAPSHOT\gates-interactive-web-04.88.0-SNAPSHOT-static-web-content.zip
+[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gates-interactive-web\target\gates-interactive-web-04.90.0-SNAPSHOT.war to C:\Users\ssing\.m2\repository\com\matson\gates\gates-interactive-web\04.90.0-SNAPSHOT\gates-interactive-web-04.90.0-SNAPSHOT.war
+[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gates-interactive-web\pom.xml to C:\Users\ssing\.m2\repository\com\matson\gates\gates-interactive-web\04.90.0-SNAPSHOT\gates-interactive-web-04.90.0-SNAPSHOT.pom
+[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gates-interactive-web\target\gates-interactive-web-04.90.0-SNAPSHOT-static-web-content.zip to C:\Users\ssing\.m2\repository\com\matson\gates\gates-interactive-web\04.90.0-SNAPSHOT\gates-interactive-web-04.90.0-SNAPSHOT-static-web-content.zip
 [INFO]                                                                         
 [INFO] ------------------------------------------------------------------------
-[INFO] Building gates-interactive-app 04.88.0-SNAPSHOT
+[INFO] Building gates-interactive-app 04.90.0-SNAPSHOT
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ gates-interactive-app ---
@@ -1326,16 +1317,16 @@ jar:
 [INFO] skip non existing resourceDirectory C:\dev_workspace\gates_fresh\source\gates\gates-interactive-app\src\main\resources
 [INFO] 
 [INFO] --- maven-ear-plugin:2.3.2:ear (default-ear) @ gates-interactive-app ---
-[INFO] Copying artifact[war:com.matson.gates:gates-interactive-web:04.88.0-SNAPSHOT] to[gates-interactive-web-04.88.0-SNAPSHOT.war]
+[INFO] Copying artifact[war:com.matson.gates:gates-interactive-web:04.90.0-SNAPSHOT] to[gates-interactive-web-04.90.0-SNAPSHOT.war]
 [INFO] Could not find manifest file: C:\dev_workspace\gates_fresh\source\gates\gates-interactive-app\src\main\application\META-INF\MANIFEST.MF - Generating one
 [INFO] Building jar: C:\dev_workspace\gates_fresh\source\gates\gates-interactive-app\target\GATES.ear
 [INFO] 
 [INFO] --- maven-install-plugin:2.4:install (default-install) @ gates-interactive-app ---
-[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gates-interactive-app\target\GATES.ear to C:\Users\ssing\.m2\repository\com\matson\gates\gates-interactive-app\04.88.0-SNAPSHOT\gates-interactive-app-04.88.0-SNAPSHOT.ear
-[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gates-interactive-app\pom.xml to C:\Users\ssing\.m2\repository\com\matson\gates\gates-interactive-app\04.88.0-SNAPSHOT\gates-interactive-app-04.88.0-SNAPSHOT.pom
+[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gates-interactive-app\target\GATES.ear to C:\Users\ssing\.m2\repository\com\matson\gates\gates-interactive-app\04.90.0-SNAPSHOT\gates-interactive-app-04.90.0-SNAPSHOT.ear
+[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gates-interactive-app\pom.xml to C:\Users\ssing\.m2\repository\com\matson\gates\gates-interactive-app\04.90.0-SNAPSHOT\gates-interactive-app-04.90.0-SNAPSHOT.pom
 [INFO]                                                                         
 [INFO] ------------------------------------------------------------------------
-[INFO] Building gates-batch 04.88.0-SNAPSHOT
+[INFO] Building gates-batch 04.90.0-SNAPSHOT
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ gates-batch ---
@@ -1380,14 +1371,14 @@ jar:
 [INFO] Tests are skipped.
 [INFO] 
 [INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ gates-batch ---
-[INFO] Building jar: C:\dev_workspace\gates_fresh\source\gates\gates-batch\target\gates-batch-04.88.0-SNAPSHOT.jar
+[INFO] Building jar: C:\dev_workspace\gates_fresh\source\gates\gates-batch\target\gates-batch-04.90.0-SNAPSHOT.jar
 [INFO] 
 [INFO] --- maven-install-plugin:2.4:install (default-install) @ gates-batch ---
-[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gates-batch\target\gates-batch-04.88.0-SNAPSHOT.jar to C:\Users\ssing\.m2\repository\com\matson\gates\gates-batch\04.88.0-SNAPSHOT\gates-batch-04.88.0-SNAPSHOT.jar
-[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gates-batch\pom.xml to C:\Users\ssing\.m2\repository\com\matson\gates\gates-batch\04.88.0-SNAPSHOT\gates-batch-04.88.0-SNAPSHOT.pom
+[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gates-batch\target\gates-batch-04.90.0-SNAPSHOT.jar to C:\Users\ssing\.m2\repository\com\matson\gates\gates-batch\04.90.0-SNAPSHOT\gates-batch-04.90.0-SNAPSHOT.jar
+[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gates-batch\pom.xml to C:\Users\ssing\.m2\repository\com\matson\gates\gates-batch\04.90.0-SNAPSHOT\gates-batch-04.90.0-SNAPSHOT.pom
 [INFO]                                                                         
 [INFO] ------------------------------------------------------------------------
-[INFO] Building gates-service-web 04.88.0-SNAPSHOT
+[INFO] Building gates-service-web 04.90.0-SNAPSHOT
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ gates-service-web ---
@@ -1421,24 +1412,20 @@ jar:
 [INFO] 
 [INFO] --- maven-war-plugin:2.2:war (default-war) @ gates-service-web ---
 [INFO] Packaging webapp
-[INFO] Assembling webapp [gates-service-web] in [C:\dev_workspace\gates_fresh\source\gates\gates-service-web\target\gates-service-web-04.88.0-SNAPSHOT]
+[INFO] Assembling webapp [gates-service-web] in [C:\dev_workspace\gates_fresh\source\gates\gates-service-web\target\gates-service-web-04.90.0-SNAPSHOT]
 [INFO] Processing war project
 [INFO] Copying webapp resources [C:\dev_workspace\gates_fresh\source\gates\gates-service-web\src\main\webapp]
-[INFO] Webapp assembled in [5594 msecs]
-[INFO] Building war: C:\dev_workspace\gates_fresh\source\gates\gates-service-web\target\gates-service-web-04.88.0-SNAPSHOT.war
+[INFO] Webapp assembled in [19577 msecs]
+[INFO] Building war: C:\dev_workspace\gates_fresh\source\gates\gates-service-web\target\gates-service-web-04.90.0-SNAPSHOT.war
 [INFO] WEB-INF\web.xml already added, skipping
 [INFO] 
 [INFO] --- maven-install-plugin:2.4:install (default-install) @ gates-service-web ---
-[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gates-service-web\target\gates-service-web-04.88.0-SNAPSHOT.war to C:\Users\ssing\.m2\repository\com\matson\gates\gates-service-web\04.88.0-SNAPSHOT\gates-service-web-04.88.0-SNAPSHOT.war
-[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gates-service-web\pom.xml to C:\Users\ssing\.m2\repository\com\matson\gates\gates-service-web\04.88.0-SNAPSHOT\gates-service-web-04.88.0-SNAPSHOT.pom
+[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gates-service-web\target\gates-service-web-04.90.0-SNAPSHOT.war to C:\Users\ssing\.m2\repository\com\matson\gates\gates-service-web\04.90.0-SNAPSHOT\gates-service-web-04.90.0-SNAPSHOT.war
+[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gates-service-web\pom.xml to C:\Users\ssing\.m2\repository\com\matson\gates\gates-service-web\04.90.0-SNAPSHOT\gates-service-web-04.90.0-SNAPSHOT.pom
 [INFO]                                                                         
 [INFO] ------------------------------------------------------------------------
-[INFO] Building gatesWebService Spring-WS Application 04.88.0-SNAPSHOT
+[INFO] Building gatesWebService Spring-WS Application 04.90.0-SNAPSHOT
 [INFO] ------------------------------------------------------------------------
-[INFO] Downloading: http://10.8.7.59:8081/nexus/content/groups/public/org/jvnet/jaxb2/maven2/maven-jaxb2-plugin/maven-metadata.xml
-[INFO] Downloading: http://10.8.7.59:8081/nexus/content/groups/public/org/jvnet/jaxb2/maven2/maven-jaxb2-plugin/maven-metadata.xml
-[INFO] Downloaded: http://10.8.7.59:8081/nexus/content/groups/public/org/jvnet/jaxb2/maven2/maven-jaxb2-plugin/maven-metadata.xml (2 KB at 3.1 KB/sec)
-[INFO] Downloaded: http://10.8.7.59:8081/nexus/content/groups/public/org/jvnet/jaxb2/maven2/maven-jaxb2-plugin/maven-metadata.xml (2 KB at 2.0 KB/sec)
 [INFO] 
 [INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ gatesWebService ---
 [INFO] Deleting C:\dev_workspace\gates_fresh\source\gates\gatesWebService\target
@@ -1473,21 +1460,20 @@ jar:
 [INFO] Assembling webapp [gatesWebService] in [C:\dev_workspace\gates_fresh\source\gates\gatesWebService\target\gatesWebService]
 [INFO] Processing war project
 [INFO] Copying webapp resources [C:\dev_workspace\gates_fresh\source\gates\gatesWebService\src\main\webapp]
-[INFO] Webapp assembled in [2240 msecs]
+[INFO] Webapp assembled in [3304 msecs]
 [INFO] Building war: C:\dev_workspace\gates_fresh\source\gates\gatesWebService\target\gatesWebService.war
 [INFO] WEB-INF\web.xml already added, skipping
 [INFO] 
 [INFO] --- maven-install-plugin:2.4:install (default-install) @ gatesWebService ---
-[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gatesWebService\target\gatesWebService.war to C:\Users\ssing\.m2\repository\com\matson\gates\gatesWebService\04.88.0-SNAPSHOT\gatesWebService-04.88.0-SNAPSHOT.war
-[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gatesWebService\pom.xml to C:\Users\ssing\.m2\repository\com\matson\gates\gatesWebService\04.88.0-SNAPSHOT\gatesWebService-04.88.0-SNAPSHOT.pom
+[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gatesWebService\target\gatesWebService.war to C:\Users\ssing\.m2\repository\com\matson\gates\gatesWebService\04.90.0-SNAPSHOT\gatesWebService-04.90.0-SNAPSHOT.war
+[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gatesWebService\pom.xml to C:\Users\ssing\.m2\repository\com\matson\gates\gatesWebService\04.90.0-SNAPSHOT\gatesWebService-04.90.0-SNAPSHOT.pom
 [INFO]                                                                         
 [INFO] ------------------------------------------------------------------------
-[INFO] Building gates-service-app 04.88.0-SNAPSHOT
+[INFO] Building gates-service-app 04.90.0-SNAPSHOT
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ gates-service-app ---
 [INFO] Deleting C:\dev_workspace\gates_fresh\source\gates\gates-service-app\target
-[WARNING] Failed to delete C:\dev_workspace\gates_fresh\source\gates\gates-service-app\target
 [INFO] 
 [INFO] --- maven-ear-plugin:2.3.2:generate-application-xml (default-generate-application-xml) @ gates-service-app ---
 [INFO] Generating application.xml
@@ -1498,58 +1484,58 @@ jar:
 [INFO] skip non existing resourceDirectory C:\dev_workspace\gates_fresh\source\gates\gates-service-app\src\main\resources
 [INFO] 
 [INFO] --- maven-ear-plugin:2.3.2:ear (default-ear) @ gates-service-app ---
-[INFO] Copying artifact[war:com.matson.gates:gates-service-web:04.88.0-SNAPSHOT] to[gates-service-web-04.88.0-SNAPSHOT.war]
-[INFO] Copying artifact[war:com.matson.gates:gatesWebService:04.88.0-SNAPSHOT] to[gatesWebService.war]
+[INFO] Copying artifact[war:com.matson.gates:gates-service-web:04.90.0-SNAPSHOT] to[gates-service-web-04.90.0-SNAPSHOT.war]
+[INFO] Copying artifact[war:com.matson.gates:gatesWebService:04.90.0-SNAPSHOT] to[gatesWebService.war]
 [INFO] Copy ear sources to C:\dev_workspace\gates_fresh\source\gates\gates-service-app\target\gates-service-app
 [INFO] Could not find manifest file: C:\dev_workspace\gates_fresh\source\gates\gates-service-app\src\main\application\META-INF\MANIFEST.MF - Generating one
 [INFO] Building jar: C:\dev_workspace\gates_fresh\source\gates\gates-service-app\target\gates-service-app.ear
 [INFO] 
 [INFO] --- maven-install-plugin:2.4:install (default-install) @ gates-service-app ---
-[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gates-service-app\target\gates-service-app.ear to C:\Users\ssing\.m2\repository\com\matson\gates\gates-service-app\04.88.0-SNAPSHOT\gates-service-app-04.88.0-SNAPSHOT.ear
-[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gates-service-app\pom.xml to C:\Users\ssing\.m2\repository\com\matson\gates\gates-service-app\04.88.0-SNAPSHOT\gates-service-app-04.88.0-SNAPSHOT.pom
+[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gates-service-app\target\gates-service-app.ear to C:\Users\ssing\.m2\repository\com\matson\gates\gates-service-app\04.90.0-SNAPSHOT\gates-service-app-04.90.0-SNAPSHOT.ear
+[INFO] Installing C:\dev_workspace\gates_fresh\source\gates\gates-service-app\pom.xml to C:\Users\ssing\.m2\repository\com\matson\gates\gates-service-app\04.90.0-SNAPSHOT\gates-service-app-04.90.0-SNAPSHOT.pom
 [INFO] ------------------------------------------------------------------------
 [INFO] Reactor Summary:
 [INFO] 
-[INFO] gates .............................................. SUCCESS [  5.337 s]
-[INFO] gates-common-parent ................................ SUCCESS [  6.292 s]
-[INFO] gates-common ....................................... SUCCESS [01:23 min]
-[INFO] gates-cp ........................................... SUCCESS [  0.245 s]
-[INFO] gates-cp-service-client ............................ SUCCESS [  8.957 s]
-[INFO] gates-cp-service ................................... SUCCESS [ 33.149 s]
-[INFO] gates-tm ........................................... SUCCESS [  0.245 s]
-[INFO] gates-tm-service-client ............................ SUCCESS [  7.614 s]
-[INFO] gates-service-parent ............................... SUCCESS [  0.397 s]
-[INFO] gates-re ........................................... SUCCESS [  0.130 s]
-[INFO] Gates Re Service Client ............................ SUCCESS [  4.701 s]
-[INFO] gates-qt ........................................... SUCCESS [  0.190 s]
-[INFO] gates-qt-service-client ............................ SUCCESS [  5.344 s]
-[INFO] gates-tm-service ................................... SUCCESS [ 26.921 s]
-[INFO] gates-qt-service ................................... SUCCESS [ 17.785 s]
-[INFO] gates-edi .......................................... SUCCESS [  4.904 s]
-[INFO] gates-bk ........................................... SUCCESS [  0.170 s]
-[INFO] gates-bk-service-client ............................ SUCCESS [  9.273 s]
-[INFO] gates-sp ........................................... SUCCESS [  0.154 s]
-[INFO] gates-sp-service-client ............................ SUCCESS [  2.293 s]
-[INFO] gates-re-service ................................... SUCCESS [ 24.937 s]
-[INFO] gates-bk-service ................................... SUCCESS [ 47.565 s]
-[INFO] gates-integration .................................. SUCCESS [  0.152 s]
-[INFO] gates-integration-core ............................. SUCCESS [  2.817 s]
-[INFO] gates-bl ........................................... SUCCESS [  0.139 s]
-[INFO] gates-bl-service-client ............................ SUCCESS [ 19.899 s]
-[INFO] gates-sp-service ................................... SUCCESS [  8.407 s]
-[INFO] gates-bl-service ................................... SUCCESS [01:23 min]
-[INFO] GATES Integration Pipelines Project ................ SUCCESS [ 26.068 s]
-[INFO] GATES Integration Engine Project ................... SUCCESS [  2.370 s]
-[INFO] gates-interactive-web .............................. SUCCESS [05:22 min]
-[INFO] gates-interactive-app .............................. SUCCESS [ 16.832 s]
-[INFO] gates-batch ........................................ SUCCESS [02:16 min]
-[INFO] gates-service-web .................................. SUCCESS [ 22.449 s]
-[INFO] gatesWebService Spring-WS Application .............. SUCCESS [ 22.886 s]
-[INFO] gates-service-app .................................. SUCCESS [ 17.888 s]
+[INFO] gates .............................................. SUCCESS [  0.565 s]
+[INFO] gates-common-parent ................................ SUCCESS [  0.986 s]
+[INFO] gates-common ....................................... SUCCESS [ 46.652 s]
+[INFO] gates-cp ........................................... SUCCESS [  0.209 s]
+[INFO] gates-cp-service-client ............................ SUCCESS [  5.591 s]
+[INFO] gates-cp-service ................................... SUCCESS [ 31.022 s]
+[INFO] gates-tm ........................................... SUCCESS [  0.266 s]
+[INFO] gates-tm-service-client ............................ SUCCESS [  5.886 s]
+[INFO] gates-service-parent ............................... SUCCESS [  0.189 s]
+[INFO] gates-re ........................................... SUCCESS [  0.146 s]
+[INFO] Gates Re Service Client ............................ SUCCESS [  4.095 s]
+[INFO] gates-qt ........................................... SUCCESS [  0.202 s]
+[INFO] gates-qt-service-client ............................ SUCCESS [  3.087 s]
+[INFO] gates-tm-service ................................... SUCCESS [ 28.459 s]
+[INFO] gates-qt-service ................................... SUCCESS [ 14.538 s]
+[INFO] gates-edi .......................................... SUCCESS [  3.833 s]
+[INFO] gates-bk ........................................... SUCCESS [  0.226 s]
+[INFO] gates-bk-service-client ............................ SUCCESS [  7.880 s]
+[INFO] gates-sp ........................................... SUCCESS [  0.149 s]
+[INFO] gates-sp-service-client ............................ SUCCESS [  1.233 s]
+[INFO] gates-re-service ................................... SUCCESS [ 19.370 s]
+[INFO] gates-bk-service ................................... SUCCESS [ 52.248 s]
+[INFO] gates-integration .................................. SUCCESS [  0.108 s]
+[INFO] gates-integration-core ............................. SUCCESS [  1.092 s]
+[INFO] gates-bl ........................................... SUCCESS [  0.240 s]
+[INFO] gates-bl-service-client ............................ SUCCESS [ 15.289 s]
+[INFO] gates-sp-service ................................... SUCCESS [  6.748 s]
+[INFO] gates-bl-service ................................... SUCCESS [01:21 min]
+[INFO] GATES Integration Pipelines Project ................ SUCCESS [ 19.040 s]
+[INFO] GATES Integration Engine Project ................... SUCCESS [  1.790 s]
+[INFO] gates-interactive-web .............................. SUCCESS [06:03 min]
+[INFO] gates-interactive-app .............................. SUCCESS [  8.160 s]
+[INFO] gates-batch ........................................ SUCCESS [02:05 min]
+[INFO] gates-service-web .................................. SUCCESS [ 36.251 s]
+[INFO] gatesWebService Spring-WS Application .............. SUCCESS [ 20.778 s]
+[INFO] gates-service-app .................................. SUCCESS [ 10.379 s]
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 16:13 min
-[INFO] Finished at: 2015-11-18T07:19:19-07:00
-[INFO] Final Memory: 54M/1048M
+[INFO] Total time: 15:18 min
+[INFO] Finished at: 2015-12-04T12:25:40-07:00
+[INFO] Final Memory: 148M/992M
 [INFO] ------------------------------------------------------------------------

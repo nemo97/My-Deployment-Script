@@ -1,3 +1,37 @@
+Buildfile: C:\softwares\AntScripts\build.xml
+
+stop-jboss:
+     [exec] Result: 1
+     [echo] +-----------------------------+
+     [echo] | J B O S S   S T O P P E D   |
+     [echo] +-----------------------------+
+
+BUILD SUCCESSFUL
+Total time: 10 seconds
+Buildfile: C:\softwares\AntScripts\build.xml
+
+cvs-update:
+
+compile-simple:
+
+full-deploy-nofancy:
+   [delete] Deleting directory C:\softwares\jboss-eap-5.2\apps\GATES\deploy\gates.war
+     [sync] Copying 4198 files to C:\softwares\jboss-eap-5.2\apps\GATES\deploy\gates.war
+
+scheduled-task:
+
+BUILD SUCCESSFUL
+Total time: 17 minutes 28 seconds
+Buildfile: C:\softwares\AntScripts\build.xml
+
+start-jboss:
+     [exec] Result: 1
+     [echo] +-----------------------------+
+     [echo] | J B O S S   S T A R T E D   |
+     [echo] +-----------------------------+
+
+BUILD SUCCESSFUL
+Total time: 1 second
 [INFO] Reactor Summary:
 [INFO] 
 [INFO] gates .............................................. SUCCESS [  0.565 s]
