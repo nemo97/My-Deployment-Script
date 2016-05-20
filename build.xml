@@ -71,7 +71,7 @@
     </sync>
   </target>
   <target name="clean-perf">
-		<for list="${select.modules}" param="moduleName">
+		<for list="${deploy.select.modules}" param="moduleName">
 			<sequential>
 				 <echo>Deleting Jar from WEB-INF\lib : @{moduleName} </echo>
 				<delete>
@@ -86,22 +86,22 @@
 		<antcall target="compile"/>
 	</parallel>	
 	
-	<for list="${select.modules}" param="moduleName" parallel="true">
+	<for list="${deploy.select.modules}" param="moduleName" parallel="true">
 		<sequential>
 			<echo>Copying Jar to WEB-INF\lib : @{moduleName} </echo>
 			<copy todir="${target_app_home}\WEB-INF\lib" flatten="true">
-				<fileset dir="${src_app_home}\@{moduleName}">
+				<fileset dir="${src_app_home}">
 				  <include name="**/target/@{moduleName}*SNAPSHOT.jar"/>
 				</fileset>
 			</copy>
 		</sequential>	
 	</for>	
-	<parallel>	
+	<!--parallel>	
 		<antcall target="jsp-and-js"/>
 		<sync todir="${target_app_home}\WEB-INF\classes">
 			<fileset dir="${src_app_home}\gates-interactive-web\target\classes" />
 		</sync>
-	</parallel>
+	</parallel-->
 	<!--parallel>
 		<sync todir="${target_app_home}">
 		  <fileset dir="${src_app_home}\gates-interactive-web\target\${dirName}">
@@ -159,13 +159,13 @@
 	</exec>
   </target-->
    <target name="compile-child" description="Compile artifacts">
-		<for list="${select.modules}" param="moduleName" parallel="true">
+		<for list="${compile.select.modules}" param="moduleName" parallel="true">
 			<sequential>
 				 <echo>Building @{moduleName}</echo>
 				 <exec dir="${src_app_home}" executable="${mavenExecutable}">
 					<arg value="-pl" />
 					<arg value="@{moduleName}" />
-					<arg value="install" />
+					<arg value="compile" />
 					<arg value="-Dmaven.test.skip=true" />
 					<!--arg value="–offline" /-->					
 				</exec>
@@ -192,7 +192,7 @@
 			<!--arg value="–offline" /-->
 		</exec>
    </target>
-   <target name="compile" depends="compile-child,compile-web" description="Compile all">
+   <target name="compile" depends="compile-child" description="Compile all">
    </target>
    
    

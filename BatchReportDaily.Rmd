@@ -1,0 +1,38 @@
+---
+title: "Batch Job run summary"
+output:
+  pdf_document: default
+graphics: yes
+---
+
+```{r,echo=FALSE,warning=FALSE,message=FALSE}
+source("./Batch21DLV1.R")
+
+```
+
+## Top 15 long running steps
+```{r,fig.align='center',fig.height=10,fig.width=11,echo=FALSE,warning=FALSE}
+ggplot(top15steps.mdfr, aes(value, name,colour=cus.color)) + geom_line(size = 6) + xlab(paste("Timeline of ",as.Date(top15steps.df[1,1]))) + ylab("Batch Job : Step Name") + scale_x_datetime(breaks = date_breaks("1 hours"),labels = tvtime_format()) +guides(colour=FALSE)+labs(title="Top 15 long running steps")
+```
+
+\newpage
+
+## Top 15 long running jobs
+```{r,fig.align='center',fig.height=10,fig.width=11,echo=FALSE,warning=FALSE}
+ggplot(top15jobs.mdfr, aes(value, name,colour=cus.color)) + geom_line(size = 6) + xlab(paste("Timeline of ",as.Date(top15steps.df[1,1]))) + ylab("Batch Job Name") + scale_x_datetime(breaks = date_breaks("1 hours"),labels = tvtime_format()) +guides(colour=FALSE)+labs(title="Top 15 long running jobs")
+```
+
+\newpage
+## Elapse trends top 5 steps 
+```{r,fig.align='center',fig.height=10,fig.width=11,echo=FALSE,warning=FALSE}
+ggplot(topStepsData.df,aes(x=start_time,y=duration,color=step_name,group=step_name)) + geom_line() +facet_grid(step_name ~.) + ylab("Duration(min)") + xlab("Date")
+
+```
+
+\newpage
+## Record processed trends of top 5 steps 
+```{r,fig.align='center',fig.height=10,fig.width=11,echo=FALSE,warning=FALSE}
+ggplot(topStepsData.df,aes(x=start_time,y=read_count,color=step_name,group=step_name)) + geom_line() +facet_grid(step_name ~.) + ylab("Read Count") + xlab("Date")
+
+```
+

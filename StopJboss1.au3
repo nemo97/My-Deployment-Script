@@ -10,12 +10,12 @@ ConsoleWrite ( "AutoIt Stop Jboss : Staring " & @CRLF)
 
 ;WinActivate ( "title","Administrator: Jboss - start.bat")
 Local $hWnd = WinWait("[title:Administrator: Jboss - start.bat]", "", 10)
-WinActivate($hWnd)
+;WinActivate($hWnd)
 ; Disable user input from the mouse and keyboard.
-BlockInput($BI_DISABLE)
+;BlockInput($BI_DISABLE)
 ;If WinActive($hWnd) Then
 ConsoleWrite ( "AutoIt Stop Jboss : Checking Terminal "&$hWnd & @CRLF)
-If WinActive($hWnd) Then
+If $hWnd Then
 	Send("^c")
 	ConsoleWrite ( "AutoIt Stop Jboss : Found Terminal " & @CRLF)
 	;Opt("SendKeyDelay", 500)

@@ -1,0 +1,6 @@
+from: markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash-implicit_figures 
+template: "C:\softwares\R\R-3.2.2\library\rmarkdown\rmd\latex\default-1.14.tex" 
+highlight-style:tango 
+t:
+latex-engine: xelatex 
+variable: "geometry:margin=1in" 
