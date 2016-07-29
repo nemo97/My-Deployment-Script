@@ -1,6 +1,7 @@
 library(RMySQL)
-#mydb = dbConnect(MySQL(), user='gatuser', password='gatuser', dbname='gatmgr2', host='10.8.7.63')
-mydb = dbConnect(MySQL(), user='gatread', password='gatread_PP', dbname='gatmgr', host='10.201.1.48')
+
+## connecttion
+mydb
 
 
 
