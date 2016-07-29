@@ -165,7 +165,7 @@
 				 <exec dir="${src_app_home}" executable="${mavenExecutable}">
 					<arg value="-pl" />
 					<arg value="@{moduleName}" />
-					<arg value="compile" />
+					<arg value="install" />
 					<arg value="-Dmaven.test.skip=true" />
 					<!--arg value="–offline" /-->					
 				</exec>
