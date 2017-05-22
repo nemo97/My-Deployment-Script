@@ -5,7 +5,11 @@
   <property name="target_app_home"  location="C:\softwares\jboss-eap-5.2\apps\GATES\deploy\gates.war"/>   
   <!--property name="target_app_home"  location="C:\softwares\jetty-distribution-8.1.17.v20150415\webapps\gates.war"/-->   
   
-  <property name="src_app_home"  location="C:\dev_workspace\gates_fresh\source\gates"/> 
+  <!--property name="src_app_home"  location="C:\dev_workspace\GatesGitFresh"/--> 
+  <property name="src_app_home"  location="C:\dev_workspace\GatesGitRedis"/> 
+  <!--property name="src_app_home"  location="C:\dev_workspace\GatesSVN\gates.git\trunk"/--> 
+  <!--property name="src_app_home"  location="C:\dev_workspace\gates_spring_upgrade\source\gates"/--> 
+  <!--property name="src_app_home"  location="C:\dev_workspace\GatesVerifcation\source\gates"/--> 
   <property name="jboss.bin.dir"  location="C:\softwares\jboss-eap-5.2\jboss-as\bin"/>
   <property name="m2.home"  location="C:\softwares\apache-maven-3.3.3"/>
   <property name="log.dir"  location="C:\softwares\AntScripts\logs"/>
@@ -70,6 +74,16 @@
       <fileset dir="${src_app_home}\gates-interactive-web\target\${dirName}" />
     </sync>
   </target>
+  <target name="just-deploy-nofancy">	  
+	<dirset dir="${src_app_home}\gates-interactive-web\target" id="dirId">
+		<include name="gates-interactive-web*"/>
+	</dirset>
+	<property name= "dirName" refid= "dirId" />
+	<delete dir="${target_app_home}"/>
+	<sync todir="${target_app_home}">
+      <fileset dir="${src_app_home}\gates-interactive-web\target\${dirName}" />
+    </sync>
+  </target>
   <target name="clean-perf">
 		<for list="${deploy.select.modules}" param="moduleName">
 			<sequential>
@@ -113,9 +127,10 @@
 		</sync>		
 	</parallel-->	
   </target>
+  <!--target name="web-project-deploy" depends="compile-web" -->
   <target name="web-project-deploy" depends="compile-web">
 	<parallel>	
-		<antcall target="jsp-and-js"/>
+		<!--antcall target="jsp-and-js"/-->
 		<sync todir="${target_app_home}\WEB-INF\classes">
 			<fileset dir="${src_app_home}\gates-interactive-web\target\classes" />
 		</sync>
@@ -177,7 +192,7 @@
 			<arg value="-pl" />
 			<arg value="gates-interactive-web" />
 			<arg value="compile" />
-			<arg value="-P CustomBuildProfile" />
+			<!--arg value="-P CustomBuildProfile" /-->
 			<arg value="-Dmaven.test.skip=true" />
 			<!--arg value="–offline" /-->
 		</exec>
@@ -199,7 +214,7 @@
    <target name="compile-simple" description="Compile no fancy all">
 		<exec dir="${src_app_home}" executable="${mavenExecutable}">      					
 			<arg value="clean" />
-			<arg value="install" />
+			<arg value="install" />			
 			<arg value="-l" />
 			<arg value="${log.dir}\full.txt" />
 			<arg value="-Dmaven.test.skip=true" />			
