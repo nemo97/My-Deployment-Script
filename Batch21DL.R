@@ -78,11 +78,6 @@ ggplot(mdfr, aes(value, name,colour=cus.color)) + geom_line(size = 6) + xlab(pas
 #print(p)
 dev.off()
 
-from <- "ssing@matson.com"
-to <- "ssing@matson.com"
-subject <- "Batch Job Stat"
-body <- "Email body."
-mailControl=list(smtpServer="emailweb.matson.com")
 #needs full path if not in working directory
 attachmentPath <- fileName
 
